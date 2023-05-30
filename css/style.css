@@ -1,0 +1,804 @@
+/* fonts */
+
+@font-face {
+    font-family: "hindSiliguri-Light";
+    src: url(../Assets/Fonts/HindSiliguri-Light.ttf);
+}
+@font-face {
+    font-family: "hindSiliguri-Bold";
+    src: url(../Assets/Fonts/HindSiliguri-Bold.ttf);
+}
+@font-face {
+    font-family: "heebo-light";
+    src: url(../Assets/Fonts/Heebo-Light.ttf);
+}
+@font-face {
+    font-family: "heebo-regular";
+    src: url(../Assets/Fonts/Heebo-Regular.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+/* WHATSAPP */
+
+.linkWhas{
+    position: fixed;
+    width: 55px;    
+    height: 55px;
+    line-height: 55px;  
+    bottom: 30px;   
+    right: 30px;
+    background-color: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba (0, 0, 0, 0.3);
+    z-index: 100;
+    transition: all .3s ease-in-out
+}
+.linkWhas:hover{
+    text-decoration: none;
+    color: #0df053;
+    background-color: #fff;
+}
+
+ /* index html */
+
+ main{
+    background-image:linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), 
+    url(../Assets/img/esquina.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ .containerNuestraHistoria{
+    display: flex;
+    flex-direction: column;
+ }
+.containerTitiloIndex{
+    display: flex;  
+    justify-content: center;
+}
+.TituloIndex{
+    color: whitesmoke;
+    margin: 20px 0px 30px 0px;
+}
+.contenedorTextoNuestraHistoria{
+    display: flex;
+    justify-content: center;
+    margin: 20px 70px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: solid 3px rgba(255, 255, 255, 0.2);
+    
+}
+.TxtoNuestraHistoria{   
+    font-family: "hindSiliguri-Light";
+    color:whitesmoke;
+    text-align: center;
+    font-size: 22px;
+    padding: 25px;
+    margin: 10px;
+}
+
+
+/* FOOTER */
+/* 
+.piePagina{
+    display: grid;
+    height: 150px;
+    width: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:repeat(3, 110px);
+}
+.contenedor-contenedorIconosRsSoc{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px rgb(201, 199, 199);
+}
+.iconosFooterRedesSociales{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;  
+    text-decoration: none;
+    min-height: 40px;
+    width: 40px;    
+    background-color:rgba(255, 255, 255, 0.2); 
+    border-radius: 50%;
+    margin: 40px 10px 40px 10px;
+    color: rgb(201, 199, 199);   
+}
+.iconosFooterRedesSociales:hover{
+    text-decoration: none;
+    color: rgb(65, 62, 62);
+    background-color:whitesmoke;   
+}
+.contenedorUlLiFooter{
+    display:grid;
+    grid-column: 1/6;   
+    grid-row: 2/3;
+    justify-content:space-between; 
+    padding: 50px;
+    background-color: #212529;
+    align-items: center;
+    border-bottom: solid 1px rgb(201, 199, 199);   
+}
+.listaFooter{
+    font-weight:bold;
+    font-style:normal;
+   
+    font-size: 16px;    
+    text-decoration: none;
+    color: white;
+    padding-top: 40px;
+    transition: all ease; 
+}
+.listaFooter:hover{
+    color:rgba(255, 255, 255, 0.2);
+} 
+.LogoFooter{
+    display: flex;   
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+}
+.logoPiePagina{
+    height: 80px;
+} */
+
+.contenedor-contenedorIconosRsSoc{
+    display: flex;    
+    align-items: center;
+    border-bottom: solid 1px rgb(201, 199, 199);
+}
+.iconosFooterRedesSociales{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;  
+    text-decoration: none;
+    min-height: 40px;
+    width: 40px;    
+    background-color:rgba(255, 255, 255, 0.2); 
+    border-radius: 50%;
+    margin: 40px 10px 40px 10px;
+    color: rgb(201, 199, 199);   
+}
+.iconosFooterRedesSociales:hover{
+    text-decoration: none;
+    color: rgb(65, 62, 62);
+    background-color:whitesmoke;   
+}
+.contenedorUlLiFooter{
+    display: flex;    
+    justify-content:space-between; 
+    padding: 50px; 
+    align-items: center;
+    border-bottom: solid 1px rgb(201, 199, 199);   
+}
+.listaFooter{
+    font-weight:bold;
+    font-style:normal;
+    font-size: 16px;    
+    text-decoration: none;
+    color: white;
+    padding-top: 40px;
+    transition: all ease; 
+}
+.listaFooter:hover{
+    color:rgba(255, 255, 255, 0.2);
+} 
+.LogoFooter{
+    display: flex;   
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+}
+.logoPiePagina{
+    height: 80px;
+}
+
+/* ESTUDIOS HTML */
+
+#titulo{
+    color: whitesmoke;
+    font-family: "heebo-regular";
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.listadoEstudios{
+    display: flex;
+    justify-content: space-evenly
+}
+.Estudios{ 
+    font-family: "heebo-light";
+    font-size: 16px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+    border: solid 1px rgba(255, 255, 255, 0.3);
+    border-radius: 8px 0px;
+    background: rgba(255, 255, 255, 0.2);
+    transition:all .1s ease;
+}
+.Estudios:hover{
+    color: white;
+}
+.estudioDefinicion{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 3px rgba(255, 255, 255, 0.2);
+    margin: 50px;
+}
+
+/* ELECTROCARDIOGRAMA */
+
+.containerTitulo-ImgEcg{
+    display: flex; 
+    flex-direction: column;   
+}
+.tituloEstudioEcg{
+    display: flex;
+    flex-direction: column;
+    font-family: "heebo-regular";
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 22px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 3px rgba(255, 255, 255, 0.2);
+    color:rgb(13, 13, 45);
+    z-index: 23;
+}
+.imagenEstudioEcg{
+    height: 252px; 
+    margin: 10px;
+    padding-left: 12px;
+    align-self: flex-start;
+    order: 2;
+    z-index: 10;
+}
+.containerTxtoEcg{
+    display: flex;
+    flex-direction:column;
+}
+.textoEcg{
+    display: flex;
+    font-size: 20px;
+    font-family: "heebo-bold";
+    text-align:left;
+    padding: 10px;
+    margin: 15px;
+    color: rgb(13, 13, 45); 
+}
+.containerBotonSubirEcg{
+    display: flex;
+    align-self:flex-end;
+    font-family: "hindSiliguri-Bold";
+    color: rgb(13, 13, 45);
+    font-size: 16px;
+    padding: 6px;
+}
+.botonSubirEcg{
+    color: rgb(13, 13, 45);
+    text-decoration: none;
+}
+
+/* HOLTER */
+
+.containerTitulo-ImgHolter{
+    display: flex;
+    flex-direction: column;
+}
+.imagenEstudioHolter{
+    height: 252px; 
+    margin: 10px;
+    padding-left: 12px;
+    align-self: flex-start;
+    order: 2;
+    z-index: 10;
+}
+.tituloEstudioHolter{
+    display: flex;
+    flex-direction: column;
+    font-family: "heebo-regular";
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 22px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 3px rgba(255, 255, 255, 0.2);
+    color:rgb(13, 13, 45);
+    z-index: 23;
+}
+.containerTxtoHolter{
+    display: flex;
+    flex-direction:column;
+}
+.textoEstudioHolter{
+    display: flex;
+    font-size: 20px;
+    font-family: "heebo-bold";
+    text-align:left;
+    padding: 10px;
+    margin: 15px;
+    color: rgb(13, 13, 45);
+}
+.containerBotonSubirHolter{
+    display: flex;
+    align-self:flex-end;
+    font-family: "hindSiliguri-Bold";
+    color: rgb(13, 13, 45);
+    font-size: 16px;
+    padding: 6px;
+}
+.BotonSubirHolter{
+    color: rgb(13, 13, 45);
+    text-decoration: none;
+}
+
+/* PRESUROMETRIA */
+
+.containerTitulo-ImgMapa{
+    display: flex;
+    flex-direction: column;
+}
+.imagenEstudioMapa{
+    height: 252px; 
+    margin: 10px;
+    padding-left: 12px;
+    align-self: flex-start;
+    order: 2;
+    z-index: 10;
+}
+.tituloEstudioMapa{
+    display: flex;
+    flex-direction: column;
+    font-family: "heebo-regular";
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 22px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 3px rgba(255, 255, 255, 0.2);
+    color:rgb(13, 13, 45);
+    z-index: 23;
+}
+.containerTxtoMapa{
+    display: flex;
+    flex-direction:column;
+}
+.textoEstudioMapa{
+    display: flex;
+    font-size: 20px;
+    font-family: "heebo-bold";
+    text-align:left;
+    padding: 10px;
+    margin: 15px;
+    color: rgb(13, 13, 45);
+}
+.containerBotonSubirMapa{
+    display: flex;
+    align-self:flex-end;
+    font-family: "hindSiliguri-Bold";
+    color: rgb(13, 13, 45);
+    font-size: 16px;
+    padding: 6px;
+}
+.BotonSubirMapa{
+    color: rgb(13, 13, 45);
+    text-decoration: none;
+}
+
+/* ERGOMETRIA */
+
+.containerTitulo-ImgErgo{
+    display: flex;
+    flex-direction: column;
+}
+.imagenEstudioErgo{
+    height: 222px; 
+    margin: 10px;
+    padding-left: 12px;
+    align-self: flex-start;
+    order: 2;
+    z-index: 10;
+}
+.tituloEstudioErgo{
+    display: flex;
+    flex-direction: column;
+    font-family: "heebo-regular";
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 22px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 3px rgba(255, 255, 255, 0.2);
+    color:rgb(13, 13, 45);
+    z-index: 23;
+}
+.containerTxtoErgo{
+    display: flex;
+    flex-direction:column;
+}
+.textoEstudioErgo{
+    display: flex;
+    font-size: 20px;
+    font-family: "heebo-bold";
+    text-align:left;
+    padding: 10px;
+    margin: 15px;
+    color: rgb(13, 13, 45);
+}
+.containerBotonSubirErgo{
+    display: flex;
+    align-self:flex-end;
+    font-family: "hindSiliguri-Bold";
+    color: rgb(13, 13, 45);
+    font-size: 16px;
+    padding: 6px;
+}
+.BotonSubirErgo{
+    text-decoration: none;
+    color: rgb(13, 13, 45);
+}
+
+/* ECOCARDIOGRAMA DOPPLER */
+
+.containerTitulo-ImgEcoCardio{
+    display: flex;
+    flex-direction: column;
+}
+.imagenEstudioEcoCardio{
+    height: 222px; 
+    margin: 10px;
+    padding-left: 12px;
+    align-self: flex-start;
+    order: 2;
+    z-index: 10;
+}
+.tituloEstudioEcoCardio{
+    display: flex;
+    flex-direction: column;
+    font-family: "heebo-regular";
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 22px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 3px rgba(255, 255, 255, 0.2);
+    color:rgb(13, 13, 45);
+    z-index: 23;
+}
+.containerTxtoEcocardio{
+    display: flex;
+    flex-direction:column;
+}
+.TextoEstudioEcocardio{
+    display: flex;
+    font-size: 20px;
+    font-family: "heebo-bold";
+    text-align:left;
+    padding: 10px;
+    margin: 15px;
+    color: rgb(13, 13, 45);
+}
+.containerBotonSubirEcocardio{
+    display: flex;
+    align-self:flex-end;
+    font-family: "hindSiliguri-Bold";
+    color: rgb(13, 13, 45);
+    font-size: 16px;
+    padding: 6px;
+}
+.BotonSubirEcocardio{
+    text-decoration: none;
+    color: rgb(13, 13, 45);
+}
+
+/* DOPPLER VASOS DE CUELLO */
+
+.containerTitulo-ImgEcoVasos{
+    display: flex;
+    flex-direction: column;
+}
+.imagenEstudioEcoVasos{
+    height: 222px; 
+    margin: 10px;
+    padding-left: 12px;
+    align-self: flex-start;
+    order: 2;
+    z-index: 10;
+}
+.tituloEstudioEcoVasos{
+    display: flex;
+    flex-direction: column;
+    font-family: "heebo-regular";
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 22px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 3px rgba(255, 255, 255, 0.2);
+    color:rgb(13, 13, 45);
+    z-index: 23;
+}
+.containerTxtoEcoVasos{
+    display: flex;
+    flex-direction: column;
+}
+.TextoEstudioEcoVasos{
+    display: flex;
+    font-size: 20px;
+    font-family: "heebo-bold";
+    text-align:left;
+    padding: 10px;
+    margin: 15px;
+    color: rgb(13, 13, 45);
+}
+.containerBotonSubirEcoVasos{
+    display: flex;
+    align-self:flex-end;
+    font-family: "hindSiliguri-Bold";
+    color: rgb(13, 13, 45);
+    font-size: 16px;
+    padding: 6px;
+}
+.BotonSubirEcoVasos{
+    text-decoration: none;
+    color: rgb(13, 13, 45);
+}
+
+/* ESTUDIO EDAD ARTERIAL */
+
+.containerTitulo-ImgEdadArt{
+    display: flex;
+    flex-direction: column;
+}
+.imagenEstudioEdadArt{
+    height: 150px; 
+    margin: 4px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    align-self: flex-start;
+}
+.tituloEstudioEdadArt{
+    display: flex;
+    flex-direction: column;
+    font-family: "heebo-regular";
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: 18px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 3px rgba(255, 255, 255, 0.2);
+    color:rgb(13, 13, 45);
+
+}
+.containerTxtoEdadArt{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+.textoEstudioEdadArt{
+    display: flex;
+    font-size: 20px;
+    font-family: "heebo-bold";
+    text-align:left;
+    padding: 10px;
+    margin: 15px;
+    color: rgb(13, 13, 45);
+}
+.containerBotonSubirEdadArt{
+    display: flex;
+    align-self:flex-end;
+    font-family: "hindSiliguri-Bold";
+    color: rgb(13, 13, 45);
+    font-size: 16px;
+    padding: 6px;
+}
+.BotonSubirEdadArt{
+    text-decoration: none;
+    order: 2;
+    color: rgb(13, 13, 45);
+}
+
+/* ENTRVISTAS HTML */
+
+.containerTituloTxtoEntrevistas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#tituloEntrevistas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.tituloEntrevistas{
+    color: whitesmoke;
+    margin: 20px 0px 30px 0px;
+}
+.textoDeInicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.ParrafoTxtoEntrevistas{
+    font-family: "heebo-Regular";
+    color:whitesmoke;
+    text-align: center;
+    font-size: 18px;
+    padding: 25px;
+    width: 1150px;
+    margin: 20px 0px 30px 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 3px rgba(255, 255, 255, 0.2);
+}
+.containerVideosEntrevistas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.entrevista{
+    margin: 20px;
+}
+iframe{
+   height: 250px;
+   width: 350px;
+}
+
+/* ENVIA CV HTML */
+
+
+
+.containerTituloForm{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.tituloForm{
+   color: whitesmoke;
+}
+.containerTxtoImgForm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items: center;
+}
+.imgContainer{
+    padding: 20px;
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 3px rgba(255, 255, 255, 0.2);
+}
+.containerTxtoForm{
+    font-family: "heebo-Regular";
+    color:whitesmoke;
+    text-align: center;
+    font-size: 18px;
+    padding: 25px;
+    width: 500px;
+    margin: 20px 0px 30px 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 3px rgba(255, 255, 255, 0.2);
+}
+
+/* SERVICIOS HTML */
+
+.containerTituloTxtoServicios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.tituloServicios{
+    color: whitesmoke;
+    margin: 20px 0px 30px 0px;
+}
+.TextoServicios{
+    font-family: "heebo-Regular";
+    color:whitesmoke;
+    text-align: center;
+    font-size: 18px;
+    padding: 25px;
+    width: 1150px;
+    margin: 20px 0px 30px 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 3px rgba(255, 255, 255, 0.2); 
+}
+.containerListaServicios{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.listaServicios{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 20px 0px 30px 0px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 3px;
+    padding: 8px;
+    margin: 5px;
+}
+/* CONTACTO HTML */
+
+.containerTituloContacto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tituloContacto{
+    color: whitesmoke;
+    font-family: "heebo-regular";    
+    padding: 20px;
+}
+.containerImgContacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: solid 1px rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    margin: 0px 50px;
+}
+.imagenTurnos{
+   height: 700px;
+   padding: 20px;
+   margin-left: 30px;
+   border-radius: 5px;
+}
+.containerUbicacion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.containerH2Contacto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tituloh2{
+    color: whitesmoke;
+    font-family: "heebo-light";
+    padding: 20px;
+}
+.containerH3Contacto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.domicilioH3{
+    color: whitesmoke;
+    font-family: "hindSiliguri-Light";
+    font-size: 25px;
+    padding: 20px;  
+}
+.imagenUbicacion{
+    height: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+
