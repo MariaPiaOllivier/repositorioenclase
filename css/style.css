@@ -83,70 +83,7 @@
     margin: 10px;
 }
 
-
 /* FOOTER */
-/* 
-.piePagina{
-    display: grid;
-    height: 150px;
-    width: 100%;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows:repeat(3, 110px);
-}
-.contenedor-contenedorIconosRsSoc{
-    display: flex;
-    align-items: center;
-    border-bottom: solid 1px rgb(201, 199, 199);
-}
-.iconosFooterRedesSociales{
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    align-items: center;  
-    text-decoration: none;
-    min-height: 40px;
-    width: 40px;    
-    background-color:rgba(255, 255, 255, 0.2); 
-    border-radius: 50%;
-    margin: 40px 10px 40px 10px;
-    color: rgb(201, 199, 199);   
-}
-.iconosFooterRedesSociales:hover{
-    text-decoration: none;
-    color: rgb(65, 62, 62);
-    background-color:whitesmoke;   
-}
-.contenedorUlLiFooter{
-    display:grid;
-    grid-column: 1/6;   
-    grid-row: 2/3;
-    justify-content:space-between; 
-    padding: 50px;
-    background-color: #212529;
-    align-items: center;
-    border-bottom: solid 1px rgb(201, 199, 199);   
-}
-.listaFooter{
-    font-weight:bold;
-    font-style:normal;
-   
-    font-size: 16px;    
-    text-decoration: none;
-    color: white;
-    padding-top: 40px;
-    transition: all ease; 
-}
-.listaFooter:hover{
-    color:rgba(255, 255, 255, 0.2);
-} 
-.LogoFooter{
-    display: flex;   
-    justify-content: center;
-    margin: 50px 0px 0px 0px;
-}
-.logoPiePagina{
-    height: 80px;
-} */
 
 .contenedor-contenedorIconosRsSoc{
     display: flex;    
@@ -237,10 +174,11 @@
 
 .containerTitulo-ImgEcg{
     display: flex; 
-    flex-direction: column;   
+    flex-wrap: wrap;   
 }
 .tituloEstudioEcg{
     display: flex;
+    flex: 2;
     flex-direction: column;
     font-family: "heebo-regular";
     text-decoration: none;
@@ -263,7 +201,7 @@
 }
 .containerTxtoEcg{
     display: flex;
-    flex-direction:column;
+    flex-wrap: wrap;
 }
 .textoEcg{
     display: flex;
@@ -799,6 +737,36 @@ iframe{
     padding: 20px;
     border-radius: 20px;
 }
-
-
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .TituloIndex {
+        font-size: 20px;
+    }
+    .TxtoNuestraHistoria{
+        font-size: 18px;
+        color: black;
+    }
+    .Estudios{
+        display: none;
+    }
+    .tituloEstudioEcg{
+        flex-direction: column;
+        font-size: 18px;
+        color:whitesmoke;
+    }
+    .textoEcg{
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-size: 17px;
+        color: whitesmoke;
+    }
+    .imagenEstudioEcg{
+        display: none;
+    }
+    .botonSubirEcg {
+        display: none;
+    }
+    .BotonSubirEcocardio .BotonSubirEcoVasos .BotonSubirEdadArt .BotonSubirErgo .BotonSubirHolter {
+        
+    }
+}
 
