@@ -630,6 +630,7 @@ iframe{
     padding: 8px;
     margin: 5px;
 }
+
 /* CONTACTO HTML */
 
 .containerTituloContacto{
@@ -687,6 +688,7 @@ iframe{
     padding: 20px;
     border-radius: 20px;
 }
+
 @media screen and (min-width: 0px) and (max-width: 480px){
     .TituloIndex {
         font-size: 28px;
@@ -881,6 +883,16 @@ iframe{
     }
     .BotonSubirEdadArt{
         display: none;
+    }
+    /* ENTREVISTAS */
+    .textoDeInicio{
+        display: none;
+    }
+    .ParrafoTxtoEntrevistas{
+        display: none;
+    }
+    iframe{
+        height: 50%;
     }
 
     /* FOOTER */
