@@ -80,19 +80,16 @@
           </div>
 
           <div class="containerTxtoImgForm">
-            <div class="imgContainer">
-              <img src="../Assets/img/enviar-CV-.jpg" alt="tecla enviar cv">
-            </div>
-            <div class="containerTxtoForm">
-              <p> Completando este breve formulario ya vas a quedar en nuestra
-                base de datos para cualquier busqueda que hagamos, contanos en el comentario
-                tu experiencia laboral y en caso de ser personal médico, tu especialización!
-                </p>
-            </div>
+            <img src="../Assets/img/enviar-CV-.jpg" 
+            class="imgCv" alt="tecla enviar cv">
+           <p class="TxtoForm"> Completando este breve formulario ya vas a quedar en nuestra
+              base de datos para cualquier busqueda que hagamos, contanos en el comentario
+              tu experiencia laboral y en caso de ser personal médico, tu especialización!
+           </p>
           </div>
-    <br>
-    <br>
-      <form class="row g-3 needs-validation" novalidate>
+        <br>
+        <br>
+      <form class="row g-3 needs-validation justify-content-md-center" novalidate>
         <div class="form-datos col-md-3 d-flex">
           <label for="validationTooltip01" class="form-label"></label>
           <input type="text" class="form-control" id="validationTooltip01"placeholder="Nombre" value="" required>
@@ -113,7 +110,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 d-flex">
+        <div class="col-md-5 d-flex">
           <label for="validationTooltipUsername" class="form-label"></label>
           <div class="input-group has-validation">
             <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
@@ -142,12 +139,18 @@
           </select>
         </div>
 
-      <div class="form-floating d-flex">
-        <textarea class="form-control" placeholder="" id="floatingTextarea2" style="height: 150px; width: 800px"></textarea>
-        <label for="floatingTextarea2">Experiencia Laboral</label>
-      </div>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Experiencia Laboral</label>
+        </div>
 
-      <div class="col-12">
+      <!-- <div class="form-floating d-flex justify-content-center">
+        <textarea class="form-control" placeholder="" 
+        id="floatingTextarea2" style="height: 150px; width: 800px">
+      </textarea>
+      </div> -->
+
+      <div class="col-12 justify-content-center">
         <button class="btn btn-dark" type="submit">ENVIAR</button>
       </div>
     </form>

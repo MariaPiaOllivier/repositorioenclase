@@ -46,6 +46,15 @@
 
  /* index html */
 
+ .navbar-toggler-icon{
+    background-color: whitesmoke;
+ }
+ .navbar-toggler{
+    border: none !important;
+ }
+ .navbar-toggler:focus{
+    box-shadow: none !important;
+ }
  main{
     background-image:linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), 
     url(../Assets/img/esquina.png);
@@ -116,7 +125,7 @@
     border-bottom: solid 1px rgb(201, 199, 199);   
 }
 .listaFooter{
-    font-weight:bold;
+    font-weight:lighter;
     font-style:normal;
     font-size: 16px;    
     text-decoration: none;
@@ -552,27 +561,28 @@ iframe{
    color: whitesmoke;
 }
 .containerTxtoImgForm{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center ;
-    align-items: center;
-}
-.imgContainer{
-    padding: 20px;
-    margin: 30px;
-    background-color: rgba(255, 255, 255, 0.3);
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr 1fr 20px;
+    grid-template-rows:1fr;
+    background-color: #212529;
     border: solid 3px rgba(255, 255, 255, 0.2);
+    justify-content: center;
+    align-items: center;
+    margin:20px 100px;
+    
 }
-.containerTxtoForm{
+.imgCv{ 
+    grid-row: 1/2 ;
+    grid-column: 1/4;
+    width: 40%;
+    padding: 20px;
+}
+.TxtoForm{
+    grid-row: 1/2;
+    grid-column: 3/5;
     font-family: "heebo-Regular";
     color:whitesmoke;
-    text-align: center;
     font-size: 18px;
-    padding: 25px;
-    width: 500px;
-    margin: 20px 0px 30px 0px;
-    background-color: rgba(255, 255, 255, 0.3);
-    border: solid 3px rgba(255, 255, 255, 0.2);
 }
 
 /* SERVICIOS HTML */
@@ -612,6 +622,7 @@ iframe{
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: #212529;
+    border: solid 3px rgba(255, 255, 255, 0.2);
 }
 .listaServicios{
     text-decoration: none;
@@ -678,7 +689,7 @@ iframe{
     padding: 20px;
     border-radius: 20px;
 }
-@media screen and (min-width: 480px) and (max-width: 768px){
+@media screen and (min-width: 0px) and (max-width: 480px){
     .TituloIndex {
         font-size: 28px;
         padding: 2px;
@@ -902,6 +913,517 @@ iframe{
         flex-direction: column;
         align-items: center;
     }
+     /* ENVIA CV */
+
+     .containerTxtoImgForm{
+        display: grid;
+        grid-template-columns: 20px 1fr 1fr 1fr 20px;
+        grid-template-rows:1fr 1fr;
+     }
+     .imgCv{
+        grid-row: 1/2 ;
+        grid-column: 2/5;
+        width: 100%;
+     }
+     .TxtoForm{
+        grid-row: 2/3;
+        grid-column: 2/5;
+        text-align: center;
+     }
+     /* SERVICIOS */
+
+     .containerTxtoServicios{
+        display: none;
+     }
+
+     .TextoServicios{
+        display: none;
+     }
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .TituloIndex {
+        font-size: 28px;
+        padding: 2px;
+        margin-top: 5px;
     }
+    .TxtoNuestraHistoria{
+        font-size: 20px;
+        color: whitesmoke;
+    }
+    /* ESTUDIOS */
+
+    .Estudios{
+        display: none;
+    }
+    .estudioDefinicionEcg{
+        background: #212529;
+        height: auto;
+        grid-column: 2/6
+    }
+    .tituloEstudioEcg{
+        color: whitesmoke;
+        grid-column: 1/8;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .imagenEstudioEcg{
+        display: none;
+    }
+    .textoEcg{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .botonSubirEcg{
+        display: none;
+    }
+
+    .estudioDefinicionHolter{
+        background: #212529;
+        height: auto;
+        grid-column: 2/6
+    }
+    .tituloEstudioHolter{
+        color: whitesmoke;
+        grid-column: 1/8;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .imagenEstudioHolter{
+        display: none;
+    }
+    .textoHolter{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .BotonSubirHolter{
+        display: none;
+    }
+
+    .estudioDefinicionMapa{
+        background: #212529;
+        height: auto;
+        grid-column: 2/6
+    }
+    .tituloEstudioMapa{
+        color: whitesmoke;
+        grid-column: 1/8;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .imagenEstudioMapa{
+        display: none;
+    }
+    .textoMapa{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .BotonSubirMapa{
+        display: none;
+    }
+    .estudioDefinicionErgo{
+        background: #212529;
+        height: auto;
+        grid-column: 2/6
+    }
+    .tituloEstudioErgo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .imagenEstudioErgo{
+        display: none;
+    }
+    .textoErgo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .BotonSubirErgo{
+        display: none;
+    }
+
+    .estudioDefinicionEcocardio{
+        background: #212529;
+        height: auto;
+        grid-column: 2/6
+    }
+    .tituloEstudioEcocardio{
+        color: whitesmoke;
+        grid-column: 1/8;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .imagenEstudioEcoCardio{
+        display: none;
+    }
+    .textoEcocardio{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .BotonSubirEcocardio{
+        display: none;
+    }
+
+    .estudioDefinicionEcoVasos{
+        background: #212529;
+        height: auto;
+        grid-column: 2/6
+    }
+    .tituloEstudioEcoVasos{
+        color: whitesmoke;
+        grid-column: 1/8;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .imagenEstudioEcoVasos{
+        display: none;
+    }
+    .textoEcoVasos{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .BotonSubirEcoVasos{
+        display: none;
+    }
+
+    .estudioDefinicionEdadArt{
+        background: #212529;
+        height: auto;
+        grid-column: 2/6
+    }
+    .tituloEstudioEdadArt{
+        color: whitesmoke;
+        grid-column: 1/8;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .imagenEstudioEdadArt{
+        display: none;
+    }
+    .textoEdadArt{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .BotonSubirEdadArt{
+        display: none;
+    }
+
+    /* FOOTER */
+
+    .contenedor-contenedorIconosRsSoc{
+        align-items: start;
+        justify-content: center;
+    }
+    .contenedorUlLiFooter{
+        flex-direction: column;
+        align-items: start;
+        align-items: center;
+        padding: 5px;
+    }
+    .comtainerTituloForm{
+        font-size: 20px;
+    }
+    .containerTxtoImgForm{
+        flex-direction: column;
+    }
+    .containerTxtoForm{
+        font-size: 17px;
+    }
+    .imgContainer{
+        display: none;
+    }
+    .containerListaServicios{
+        flex-direction: column;
+        align-items: center;
+    }
+     /* ENVIA CV */
+
+     .containerTxtoImgForm{
+        display: grid;
+        grid-template-columns: 20px 1fr 1fr 1fr 20px;
+        grid-template-rows:1fr 1fr;
+     }
+     .imgCv{
+        grid-row: 1/2 ;
+        grid-column: 2/5;
+        width: 100%;
+     }
+     .TxtoForm{
+        grid-row: 2/3;
+        grid-column: 2/5;
+        text-align: center;
+     }
+}
+ @media screen and (min-width: 769px) and (max-width: 960px){
+    .TituloIndex {
+        font-size: 28px;
+        padding: 2px;
+        margin-top: 5px;
+    }
+    .TxtoNuestraHistoria{
+        font-size: 20px;
+        color: whitesmoke;
+    }
+    /* ESTUDIOS */
+
+    .Estudios{
+        display: none;
+    }
+    .estudioDefinicionEcg{
+        background: #212529;
+        height: auto;
+        grid-column: 2/6
+    }
+    .tituloEstudioEcg{
+        color: whitesmoke;
+        grid-column: 1/8;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .imagenEstudioEcg{
+        display: none;
+    }
+    .textoEcg{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .botonSubirEcg{
+        display: none;
+    }
+
+    .estudioDefinicionHolter{
+        background: #212529;
+        height: auto;
+        grid-column: 2/6
+    }
+    .tituloEstudioHolter{
+        color: whitesmoke;
+        grid-column: 1/8;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .imagenEstudioHolter{
+        display: none;
+    }
+    .textoHolter{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .BotonSubirHolter{
+        display: none;
+    }
+
+    .estudioDefinicionMapa{
+        background: #212529;
+        height: auto;
+        grid-column: 2/6
+    }
+    .tituloEstudioMapa{
+        color: whitesmoke;
+        grid-column: 1/8;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .imagenEstudioMapa{
+        display: none;
+    }
+    .textoMapa{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .BotonSubirMapa{
+        display: none;
+    }
+    .estudioDefinicionErgo{
+        background: #212529;
+        height: auto;
+        grid-column: 2/6
+    }
+    .tituloEstudioErgo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .imagenEstudioErgo{
+        display: none;
+    }
+    .textoErgo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .BotonSubirErgo{
+        display: none;
+    }
+
+    .estudioDefinicionEcocardio{
+        background: #212529;
+        height: auto;
+        grid-column: 2/6
+    }
+    .tituloEstudioEcocardio{
+        color: whitesmoke;
+        grid-column: 1/8;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .imagenEstudioEcoCardio{
+        display: none;
+    }
+    .textoEcocardio{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .BotonSubirEcocardio{
+        display: none;
+    }
+
+    .estudioDefinicionEcoVasos{
+        background: #212529;
+        height: auto;
+        grid-column: 2/6
+    }
+    .tituloEstudioEcoVasos{
+        color: whitesmoke;
+        grid-column: 1/8;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .imagenEstudioEcoVasos{
+        display: none;
+    }
+    .textoEcoVasos{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .BotonSubirEcoVasos{
+        display: none;
+    }
+
+    .estudioDefinicionEdadArt{
+        background: #212529;
+        height: auto;
+        grid-column: 2/6
+    }
+    .tituloEstudioEdadArt{
+        color: whitesmoke;
+        grid-column: 1/8;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .imagenEstudioEdadArt{
+        display: none;
+    }
+    .textoEdadArt{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .BotonSubirEdadArt{
+        display: none;
+    }
+
+    /* FOOTER */
+
+    .contenedor-contenedorIconosRsSoc{
+        align-items: start;
+        justify-content: center;
+    }
+    .contenedorUlLiFooter{
+        flex-direction: column;
+        align-items: start;
+        align-items: center;
+        padding: 5px;
+    }
+    .comtainerTituloForm{
+        font-size: 20px;
+    }
+    .containerTxtoImgForm{
+        flex-direction: column;
+    }
+    .containerTxtoForm{
+        font-size: 17px;
+    }
+    .imgContainer{
+        display: none;
+    }
+    .containerListaServicios{
+        flex-direction: column;
+        align-items: center;
+    }
+     /* ENVIA CV */
+
+     .containerTxtoImgForm{
+        display: grid;
+        grid-template-columns: 20px 1fr 1fr 1fr 20px;
+        grid-template-rows:1fr 1fr;
+     }
+     .imgCv{
+        grid-row: 1/2 ;
+        grid-column: 2/5;
+        width: 100%;
+     }
+     .TxtoForm{
+        grid-row: 2/3;
+        grid-column: 2/5;
+        text-align: center;
+     }     
+}
+
 
 
