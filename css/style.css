@@ -95,13 +95,15 @@
 /* FOOTER */
 
 .contenedor-contenedorIconosRsSoc{
-    display: flex;    
+    display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     border-bottom: solid 1px rgb(201, 199, 199);
 }
 .iconosFooterRedesSociales{
     display: flex;
+    grid-column: 1/2;
+    justify-content: space-around;
     justify-content: center;
     align-items: center;  
     text-decoration: none;
@@ -533,18 +535,8 @@
     
 
 }
-.containerVideosEntrevistas{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.entrevista{
-    margin: 20px;
-}
 iframe{
-   height: 250px;
-   width: 350px;
+    height: 500px;
 }
 
 /* ENVIA CV HTML */
@@ -583,6 +575,12 @@ iframe{
     font-family: "heebo-Regular";
     color:whitesmoke;
     font-size: 18px;
+}
+.row{
+    background-color: #212529;
+    border: solid 3px rgba(255, 255, 255, 0.2);
+    margin: 20px 100px;
+    height:400px; 
 }
 
 /* SERVICIOS HTML */
