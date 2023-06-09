@@ -60,7 +60,7 @@
     transition: all .3s;
  }
  .nav-link:hover{
-    transform: scale (1);
+    transform: scale (1.1);
     color: #212529 !important;
     background: whitesmoke;
     font-weight: bold;
