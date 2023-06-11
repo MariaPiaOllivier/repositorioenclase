@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "hindSiliguri-Light";
+    src: url(../Assets/Fonts/HindSiliguri-Light.ttf);
+}
+@font-face {
+    font-family: "hindSiliguri-Bold";
+    src: url(../Assets/Fonts/HindSiliguri-Bold.ttf);
+}
+@font-face {
+    font-family: "heebo-light";
+    src: url(../Assets/Fonts/Heebo-Light.ttf);
+}
+@font-face {
+    font-family: "heebo-regular";
+    src: url(../Assets/Fonts/Heebo-Regular.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+main{
+    background-image:linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), 
+    url(../Assets/img/esquina.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+/* WHATSAPP */
+
+.linkWhas{
+    position: fixed;
+    width: 55px;    
+    height: 55px;
+    line-height: 55px;  
+    bottom: 30px;   
+    right: 30px;
+    background-color: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba (0, 0, 0, 0.3);
+    z-index: 100;
+    transition: all .3s ease-in-out
+}
+.linkWhas:hover{
+    text-decoration: none;
+    color: #0df053;
+    background-color: #fff;
+    transform: scale(1.2, 1.2);
+}
+ /* index html */
+
+ .navbar-toggler-icon{
+    background-color: whitesmoke;
+ }
+ .navbar-toggler{
+    border: none !important;
+ }
+ .navbar-toggler:focus{
+    box-shadow: none !important;
+ }
+ .nav-link{
+    transition: all .3s;
+ }
+ .nav-link:hover{
+    transform: scale (1.1);
+    color: #212529 !important;
+    background: whitesmoke;
+    font-weight: bold;
+ }
+ .NuestraHistoria{
+    display: flex;
+    flex-direction: column;
+    &__titulo{
+        display: flex;  
+        justify-content: center;
+        h1 {
+            color: whitesmoke;
+            margin: 20px 0px 30px 0px;
+        }
+    }
+    &__parrafo{
+        display: flex;
+        justify-content: center;
+        margin: 20px 70px;
+        background-color: #212529;
+        border: solid 3px rgba(255, 255, 255, 0.2);
+        p {
+            font-family: "hindSiliguri-Light";
+            color:whitesmoke;
+            text-align: center;
+            font-size: 22px;
+            padding: 25px;
+            margin: 10px;
+        }
+    }
+ }
+// FOOTER
