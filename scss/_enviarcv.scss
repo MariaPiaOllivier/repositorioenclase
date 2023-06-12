@@ -1,0 +1,40 @@
+.containerTituloForm{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top: 20px;
+    &__titulo{
+        color: whitesmoke;
+    }
+}
+.containerTxtoImgForm{
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr 1fr 20px;
+    grid-template-rows:1fr;
+    background-color: #212529;
+    border: solid 3px rgba(255, 255, 255, 0.2);
+    justify-content: center;
+    align-items: center;
+    margin:20px 100px;
+    &__img{
+        grid-row: 1/2 ;
+        grid-column: 1/4;
+        width: 40%;
+        padding: 20px;
+    }
+    &__TxtoForm{
+        grid-row: 1/2;
+        grid-column: 3/5;
+        font-family: "heebo-Regular";
+        color:whitesmoke;
+        font-size: 18px;
+    }
+}
+.row{
+    background-color: #212529;
+    border: solid 3px rgba(255, 255, 255, 0.2);
+    margin: 20px 100px;
+    height:400px; 
+}
