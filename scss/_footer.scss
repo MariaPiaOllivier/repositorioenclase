@@ -25,3 +25,34 @@
         transform: scale(1.3, 1.3); 
     }
 }
+.contenedorUlLiFooter{
+    display: flex;    
+    justify-content:space-between; 
+    padding: 50px; 
+    align-items: center;
+    border-bottom: solid 1px rgb(201, 199, 199);   
+}
+.listaLiFooter{
+    &__item{
+        font-weight:lighter;
+        font-style:normal;
+        font-size: 16px;    
+        text-decoration: none;
+        color: white;
+        padding-top: 40px;
+        transition: all ease;
+    }
+    &__item:hover{
+        color:rgba(255, 255, 255, 0.2);
+    }
+}
+.ContenedorFooter{
+    display: flex;   
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+}
+.LogoFooter{
+    &__img{
+        height: 80px;
+    }
+}
