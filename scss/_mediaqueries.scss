@@ -1,18 +1,341 @@
-@media screen and (min-width: 0px) and (max-width: 480px){
-   .navbar-brand samp img{
-        width: 85px;
-   }
+@media screen and (min-width: 1px) and (max-width: 480px){
+.navbar-brand samp img{
+    width: 80px; 
+}
+.NuestraHistoria__titulo h1 {
+    font-size: 28px;
+    padding: 2px;
+    margin-top: 5px;
+}
+.NuestraHistoria__parrafo p{
+    font-size: 18px;
+    color: whitesmoke;
+}
+    /* ESTUDIOS */
+
+.listadoEstudios{
+    display: none;
+    &__Estudios{
+        display: none;
+    }
+}
+.estudioDefinicionEcg{
+    background: #212529;
+    height: auto;
+    grid-column: 2/6;
+    &__titulo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    &__img{
+        display: none;
+    }
+    &__parrafo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    &__boton{
+        display: none;
+    }
+}
+.estudioDefinicionHolter{
+    background: #212529;
+    height: auto;
+    grid-column: 2/6;
+    &__titulo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    &__img{
+        display: none;
+    }
+    &__parrafo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    &__boton{
+        display: none;
+    }
+}
+.estudioDefinicionMapa{
+    background: #212529;
+    height: auto;
+    grid-column: 2/6;
+    &__titulo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    &__img{
+        display: none;
+    }
+    &__parrafo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    &__boton{
+        display: none;
+    }
+}    
+.estudioDefinicionErgo{
+    background: #212529;
+    height: auto;
+    grid-column: 2/6;
+    &__titulo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    &__img{
+        display: none;
+    }
+    &__parrafo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    &__boton{
+        display: none;
+    }
+}
+.estudioDefinicionEcocardio{
+    background: #212529;
+    height: auto;
+    grid-column: 2/6;
+    &__titulo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    &__img{
+        display: none;
+    }
+    &__parrafo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    &__boton{
+        display: none;
+    }
+}
+.estudioDefinicionEcoVasos{
+    background: #212529;
+    height: auto;
+    grid-column: 2/6;
+    &__titulo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    &__img{
+        display: none;
+    }
+    &__parrafo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    &__boton{
+        display: none;
+    }
+}
+.estudioDefinicionEdadArt{
+    background: #212529;
+    height: auto;
+    grid-column: 2/6;
+    &__titulo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+    }
+    &__img{
+        display: none;
+    }
+    &__parrafo{
+        color: whitesmoke;
+        grid-column: 1/8;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+    &__boton{
+        display: none;
+    }
+}
+
+    /* ENTREVISTAS */
+
+.textoDeInicio{
+    display: none;
+}
+.textoDeInicio__Parrafo{
+    display: none;
+}
+
+    /* FOOTER */
+
+.contenedorRsSoc{
+    align-items: start;
+    justify-content: center;
+}
+.contenedorUlLiFooter{
+    flex-direction: column;
+    align-items: start;
+    align-items: center;
+    padding: 5px;
+    .listaFooter{
+        &__item{
+            font-size: 14px;
+        }
+    }
+}
+.LogoFooter{
+    &__img{
+        height: 70px;
+    }
+}
+
+
+    // ENVIAR CV
+    
+.containerTituloForm__titulo{
+    font-size: 20px;
+}
+.containerTxtoImgForm{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+    background-color: #212529;
+    border: solid 3px rgba(255, 255, 255, 0.2);
+    justify-content: center;
+    align-items: center;
+    margin:20px 100px;
+    &__img{
+        grid-row: 1/2 ;
+        grid-column: 1/5;
+        width: 110%;
+        justify-content: center;
+    }
+    &__TxtoForm{
+        grid-row: 2/3;
+        grid-column: 2/5;
+        font-family: "heebo-Regular";
+        color:whitesmoke;
+        font-size: 13px;
+        text-align: center;
+    }
+}
+.form-floating{
+    display: none;
+}
+
+
+
+.containerListaServicios{
+     flex-direction: column;
+     align-items: center;
+}
+.containerTxtoImgForm{
+     display: grid;
+     grid-template-columns: 20px 1fr 1fr 1fr 20px;
+     grid-template-rows:1fr 1fr;
+}
+.imgCv{
+    grid-row: 1/2 ;
+    grid-column: 2/5;
+    width: 100%;
+}
+.TxtoForm{
+    grid-row: 2/3;
+    grid-column: 2/5;
+    text-align: center;
+}
+
+/* SERVICIOS */
+
+.containerTxtoServicios{
+    display: none;
+}
+
+.TextoServicios{
+    display: none;
+}
+
+// CONTACTO
+.containerUbicacion{
+    display: flex;
+    flex-direction: column;
+    &__lineas{
+        h2{
+            font-size: 16px;
+            padding: 30px 0px;
+        }
+        img{
+            width: auto;
+            justify-content: center;
+            margin-left: 35px;
+        }
+    }
+    &__mapa{
+        h2{
+            font-size: 16px;
+            padding: 30px;
+        }
+        iframe{
+            width: auto;
+            margin-left: 35px;
+        }
+    }
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .navbar-brand samp img{
+        width: 80px; 
+    }
     .NuestraHistoria__titulo h1 {
         font-size: 28px;
         padding: 2px;
         margin-top: 5px;
     }
     .NuestraHistoria__parrafo p{
-        font-size: 20px;
+        font-size: 18px;
         color: whitesmoke;
     }
-    /* ESTUDIOS */
-
+        /* ESTUDIOS */
+    
     .listadoEstudios{
         display: none;
         &__Estudios{
@@ -93,7 +416,7 @@
         &__boton{
             display: none;
         }
-    }
+    }    
     .estudioDefinicionErgo{
         background: #212529;
         height: auto;
@@ -194,17 +517,18 @@
             display: none;
         }
     }
-
-    /* ENTREVISTAS */
+    
+        /* ENTREVISTAS */
+    
     .textoDeInicio{
         display: none;
     }
     .textoDeInicio__Parrafo{
         display: none;
     }
-
-    /* FOOTER */
-
+    
+        /* FOOTER */
+    
     .contenedorRsSoc{
         align-items: start;
         justify-content: center;
@@ -214,66 +538,98 @@
         align-items: start;
         align-items: center;
         padding: 5px;
+        .listaFooter{
+            &__item{
+                font-size: 14px;
+            }
+        }
     }
-
-    // ENVIAR CV
+    .LogoFooter{
+        &__img{
+            height: 70px;
+        }
+    }
     
-    .containerTituloForm__titulo{
-        font-size: 20px;
+    
+        // ENVIAR CV
+        
+    .containerTxtoImgForm{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:1fr;
+        background-color: #212529;
+        border: solid 3px rgba(255, 255, 255, 0.2);
+        justify-content: center;
+        align-items: center;
+        margin:20px 100px;
+        &__img{
+            grid-row: 1/2 ;
+            grid-column: 3/4;
+            width: 110%;
+            justify-content: center;
+        }
+        &__TxtoForm{
+            grid-row: 2/3;
+            grid-column: 2/5;
+            font-family: "heebo-Regular";
+            color:whitesmoke;
+            font-size: 13px;
+            text-align: center;
+        }
+    }
+    
+    .containerListaServicios{
+         flex-direction: column;
+         align-items: center;
     }
     .containerTxtoImgForm{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:1fr;
-    background-color: #212529;
-    border: solid 3px rgba(255, 255, 255, 0.2);
-    justify-content: center;
-    align-items: center;
-    margin:20px 100px;
-    &__img{
-        grid-row: 1/2 ;
-        grid-column: 1/5;
-        width: 110%;
-        justify-content: center;
+         display: grid;
+         grid-template-columns: 20px 1fr 1fr 1fr 20px;
+         grid-template-rows:1fr 1fr;
     }
-    &__TxtoForm{
-        grid-row: 2/3;
-        grid-column: 2/5;
-        font-family: "heebo-Regular";
-        color:whitesmoke;
-        font-size: 13px;
-        text-align: center;
-    }
-}
-
-    .containerListaServicios{
-        flex-direction: column;
-        align-items: center;
-    }
-     /* ENVIA CV */
-
-     .containerTxtoImgForm{
-        display: grid;
-        grid-template-columns: 20px 1fr 1fr 1fr 20px;
-        grid-template-rows:1fr 1fr;
-     }
-     .imgCv{
+    .imgCv{
         grid-row: 1/2 ;
         grid-column: 2/5;
         width: 100%;
-     }
-     .TxtoForm{
+    }
+    .TxtoForm{
         grid-row: 2/3;
         grid-column: 2/5;
         text-align: center;
-     }
-     /* SERVICIOS */
-
-     .containerTxtoServicios{
+    }
+    
+    /* SERVICIOS */
+    
+    .containerTxtoServicios{
         display: none;
-     }
-
-     .TextoServicios{
+    }
+    
+    .TextoServicios{
         display: none;
-     }
+    }
+    
+    // CONTACTO
+
+    .containerUbicacion{
+        flex-direction: column;
+
+        &__lineas{
+            h2{
+                font-size: 16px;
+                padding: 30px 0px;
+            }
+            img{
+                margin-left: 220px;
+            }
+        }
+        &__mapa{
+            h2{
+                font-size: 16px;
+                padding: 30px;
+            }
+            iframe{
+                margin-left: 75px;
+            }
+        }
+    }
 }

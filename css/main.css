@@ -647,9 +647,9 @@ iframe {
   padding: 25px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media screen and (min-width: 1px) and (max-width: 480px) {
   .navbar-brand samp img {
-    width: 85px;
+    width: 80px;
   }
   .NuestraHistoria__titulo h1 {
     font-size: 28px;
@@ -657,7 +657,7 @@ iframe {
     margin-top: 5px;
   }
   .NuestraHistoria__parrafo p {
-    font-size: 20px;
+    font-size: 18px;
     color: whitesmoke;
   }
   /* ESTUDIOS */
@@ -860,6 +860,12 @@ iframe {
     align-items: center;
     padding: 5px;
   }
+  .contenedorUlLiFooter .listaFooter__item {
+    font-size: 14px;
+  }
+  .LogoFooter__img {
+    height: 70px;
+  }
   .containerTituloForm__titulo {
     font-size: 20px;
   }
@@ -887,11 +893,13 @@ iframe {
     font-size: 13px;
     text-align: center;
   }
+  .form-floating {
+    display: none;
+  }
   .containerListaServicios {
     flex-direction: column;
     align-items: center;
   }
-  /* ENVIA CV */
   .containerTxtoImgForm {
     display: grid;
     grid-template-columns: 20px 1fr 1fr 1fr 20px;
@@ -914,6 +922,334 @@ iframe {
   .TextoServicios {
     display: none;
   }
+  .containerUbicacion {
+    display: flex;
+    flex-direction: column;
+  }
+  .containerUbicacion__lineas h2 {
+    font-size: 16px;
+    padding: 30px 0px;
+  }
+  .containerUbicacion__lineas img {
+    width: auto;
+    justify-content: center;
+    margin-left: 35px;
+  }
+  .containerUbicacion__mapa h2 {
+    font-size: 16px;
+    padding: 30px;
+  }
+  .containerUbicacion__mapa iframe {
+    width: auto;
+    margin-left: 35px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .navbar-brand samp img {
+    width: 80px;
+  }
+  .NuestraHistoria__titulo h1 {
+    font-size: 28px;
+    padding: 2px;
+    margin-top: 5px;
+  }
+  .NuestraHistoria__parrafo p {
+    font-size: 18px;
+    color: whitesmoke;
+  }
+  /* ESTUDIOS */
+  .listadoEstudios {
+    display: none;
+  }
+  .listadoEstudios__Estudios {
+    display: none;
+  }
+  .estudioDefinicionEcg {
+    background: #212529;
+    height: auto;
+    grid-column: 2/6;
+  }
+  .estudioDefinicionEcg__titulo {
+    color: whitesmoke;
+    grid-column: 1/8;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+  }
+  .estudioDefinicionEcg__img {
+    display: none;
+  }
+  .estudioDefinicionEcg__parrafo {
+    color: whitesmoke;
+    grid-column: 1/8;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .estudioDefinicionEcg__boton {
+    display: none;
+  }
+  .estudioDefinicionHolter {
+    background: #212529;
+    height: auto;
+    grid-column: 2/6;
+  }
+  .estudioDefinicionHolter__titulo {
+    color: whitesmoke;
+    grid-column: 1/8;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+  }
+  .estudioDefinicionHolter__img {
+    display: none;
+  }
+  .estudioDefinicionHolter__parrafo {
+    color: whitesmoke;
+    grid-column: 1/8;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .estudioDefinicionHolter__boton {
+    display: none;
+  }
+  .estudioDefinicionMapa {
+    background: #212529;
+    height: auto;
+    grid-column: 2/6;
+  }
+  .estudioDefinicionMapa__titulo {
+    color: whitesmoke;
+    grid-column: 1/8;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+  }
+  .estudioDefinicionMapa__img {
+    display: none;
+  }
+  .estudioDefinicionMapa__parrafo {
+    color: whitesmoke;
+    grid-column: 1/8;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .estudioDefinicionMapa__boton {
+    display: none;
+  }
+  .estudioDefinicionErgo {
+    background: #212529;
+    height: auto;
+    grid-column: 2/6;
+  }
+  .estudioDefinicionErgo__titulo {
+    color: whitesmoke;
+    grid-column: 1/8;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+  }
+  .estudioDefinicionErgo__img {
+    display: none;
+  }
+  .estudioDefinicionErgo__parrafo {
+    color: whitesmoke;
+    grid-column: 1/8;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .estudioDefinicionErgo__boton {
+    display: none;
+  }
+  .estudioDefinicionEcocardio {
+    background: #212529;
+    height: auto;
+    grid-column: 2/6;
+  }
+  .estudioDefinicionEcocardio__titulo {
+    color: whitesmoke;
+    grid-column: 1/8;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+  }
+  .estudioDefinicionEcocardio__img {
+    display: none;
+  }
+  .estudioDefinicionEcocardio__parrafo {
+    color: whitesmoke;
+    grid-column: 1/8;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .estudioDefinicionEcocardio__boton {
+    display: none;
+  }
+  .estudioDefinicionEcoVasos {
+    background: #212529;
+    height: auto;
+    grid-column: 2/6;
+  }
+  .estudioDefinicionEcoVasos__titulo {
+    color: whitesmoke;
+    grid-column: 1/8;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+  }
+  .estudioDefinicionEcoVasos__img {
+    display: none;
+  }
+  .estudioDefinicionEcoVasos__parrafo {
+    color: whitesmoke;
+    grid-column: 1/8;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .estudioDefinicionEcoVasos__boton {
+    display: none;
+  }
+  .estudioDefinicionEdadArt {
+    background: #212529;
+    height: auto;
+    grid-column: 2/6;
+  }
+  .estudioDefinicionEdadArt__titulo {
+    color: whitesmoke;
+    grid-column: 1/8;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+  }
+  .estudioDefinicionEdadArt__img {
+    display: none;
+  }
+  .estudioDefinicionEdadArt__parrafo {
+    color: whitesmoke;
+    grid-column: 1/8;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .estudioDefinicionEdadArt__boton {
+    display: none;
+  }
+  /* ENTREVISTAS */
+  .textoDeInicio {
+    display: none;
+  }
+  .textoDeInicio__Parrafo {
+    display: none;
+  }
+  /* FOOTER */
+  .contenedorRsSoc {
+    align-items: start;
+    justify-content: center;
+  }
+  .contenedorUlLiFooter {
+    flex-direction: column;
+    align-items: start;
+    align-items: center;
+    padding: 5px;
+  }
+  .contenedorUlLiFooter .listaFooter__item {
+    font-size: 14px;
+  }
+  .LogoFooter__img {
+    height: 70px;
+  }
+  .containerTxtoImgForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #212529;
+    border: solid 3px rgba(255, 255, 255, 0.2);
+    justify-content: center;
+    align-items: center;
+    margin: 20px 100px;
+  }
+  .containerTxtoImgForm__img {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    width: 110%;
+    justify-content: center;
+  }
+  .containerTxtoImgForm__TxtoForm {
+    grid-row: 2/3;
+    grid-column: 2/5;
+    font-family: "heebo-Regular";
+    color: whitesmoke;
+    font-size: 13px;
+    text-align: center;
+  }
+  .containerListaServicios {
+    flex-direction: column;
+    align-items: center;
+  }
+  .containerTxtoImgForm {
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr 1fr 20px;
+    grid-template-rows: 1fr 1fr;
+  }
+  .imgCv {
+    grid-row: 1/2;
+    grid-column: 2/5;
+    width: 100%;
+  }
+  .TxtoForm {
+    grid-row: 2/3;
+    grid-column: 2/5;
+    text-align: center;
+  }
+  /* SERVICIOS */
+  .containerTxtoServicios {
+    display: none;
+  }
+  .TextoServicios {
+    display: none;
+  }
+  .containerUbicacion {
+    flex-direction: column;
+  }
+  .containerUbicacion__lineas h2 {
+    font-size: 16px;
+    padding: 30px 0px;
+  }
+  .containerUbicacion__lineas img {
+    margin-left: 220px;
+  }
+  .containerUbicacion__mapa h2 {
+    font-size: 16px;
+    padding: 30px;
+  }
+  .containerUbicacion__mapa iframe {
+    margin-left: 75px;
+  }
+}
+.containerUbicacion {
+  display: flex;
+  justify-content: space-evenly;
+  color: whitesmoke;
+}
+.containerUbicacion__lineas h2 {
+  margin: 10px 0px;
+  text-align: center;
+}
+.containerUbicacion__lineas img {
+  width: 300px;
+  align-items: center;
+}
+.containerUbicacion__mapa h2 {
+  margin: 10px 0px;
+  text-align: center;
+}
+.containerUbicacion__mapa iframe {
+  align-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */

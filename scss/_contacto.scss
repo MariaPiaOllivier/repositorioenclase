@@ -1,0 +1,25 @@
+.containerUbicacion{
+    display: flex;
+    justify-content:space-evenly;
+    color: whitesmoke;
+    &__lineas{
+        h2{
+            margin: 10px 0px;
+            text-align: center;
+        }
+        img{
+            width: 300px;  
+            align-items: center;          
+        }
+    }
+    &__mapa{
+        h2{
+            margin: 10px 0px;
+            text-align: center; 
+        }
+        iframe{
+            align-content: center;
+        }
+    }
+}
+
