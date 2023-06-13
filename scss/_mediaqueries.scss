@@ -1,13 +1,7 @@
 @media screen and (min-width: 0px) and (max-width: 480px){
-   
-    main{
-        background-image:linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), 
-        url(../Assets/img/esquina.png);
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        background-attachment: fixed;
-     }
+   .navbar-brand samp img{
+        width: 85px;
+   }
     .NuestraHistoria__titulo h1 {
         font-size: 28px;
         padding: 2px;
