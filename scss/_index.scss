@@ -64,7 +64,7 @@ main{
         display: flex;
         justify-content: center;
         margin: 20px 70px;
-        background-color: #212529;
+        background-color: $colorbg;
         border: solid 3px rgba(255, 255, 255, 0.2);
         p {
             @include estiloParrafos;

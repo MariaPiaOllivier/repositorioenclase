@@ -2,16 +2,15 @@
     display: grid;
     grid-template-rows: 80px 1fr 40px;
     grid-template-columns:  30px 1fr 1fr 1fr 1fr 1fr 30px;
-    background-color: #212529;
+    background-color: $colorbg;
     border: solid 3px rgba(255, 255, 255, 0.2);
     margin: 50px;
     padding: 22px;
-    font-family: "Lato-Regular";
 }
 @mixin titulo-estudios{
     grid-column: 2/4;
     grid-row: 1/2;
-    font-family: "Lato-Regular";
+    font-family: 'Nunito', sans-serif;
     font-weight: bold;
     text-decoration: none;
     text-align: start;
@@ -29,8 +28,8 @@
     grid-column: 3/7;
     grid-row: 2/4;
     padding-left: 30px;
-    font-size: 17px;
-    font-family: "heebo-bold";
+    font-size: 20px;
+    font-family: "monserrat-regular";
     color:whitesmoke;
 }
 @mixin boton-estudios{
@@ -50,9 +49,10 @@
 @mixin estiloH1{
     color: whitesmoke;
     padding: 20px;
+    font-family: 'Nunito', sans-serif;
 }
 @mixin estiloParrafos{
-    font-family: "Heebo-light";
+    font-family: 'Lato', sans-serif;
     color:whitesmoke;
     text-align: center;
     font-size: 22px;

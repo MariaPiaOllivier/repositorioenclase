@@ -66,6 +66,7 @@ main {
 .NuestraHistoria__titulo h1 {
   color: whitesmoke;
   padding: 20px;
+  font-family: "Nunito", sans-serif;
 }
 .NuestraHistoria__parrafo {
   display: flex;
@@ -75,7 +76,7 @@ main {
   border: solid 3px rgba(255, 255, 255, 0.2);
 }
 .NuestraHistoria__parrafo p {
-  font-family: "Heebo-light";
+  font-family: "Lato", sans-serif;
   color: whitesmoke;
   text-align: center;
   font-size: 22px;
@@ -145,6 +146,7 @@ main {
 #titulo {
   color: whitesmoke;
   padding: 20px;
+  font-family: "Nunito", sans-serif;
   display: flex;
   justify-content: center;
 }
@@ -179,12 +181,11 @@ main {
   border: solid 3px rgba(255, 255, 255, 0.2);
   margin: 50px;
   padding: 22px;
-  font-family: "Lato-Regular";
 }
 .estudioDefinicionEcg__titulo {
   grid-column: 2/4;
   grid-row: 1/2;
-  font-family: "Lato-Regular";
+  font-family: "Nunito", sans-serif;
   font-weight: bold;
   text-decoration: none;
   text-align: start;
@@ -202,8 +203,8 @@ main {
   grid-column: 3/7;
   grid-row: 2/4;
   padding-left: 30px;
-  font-size: 17px;
-  font-family: "heebo-bold";
+  font-size: 20px;
+  font-family: "monserrat-regular";
   color: whitesmoke;
 }
 .estudioDefinicionEcg__boton {
@@ -229,12 +230,11 @@ main {
   border: solid 3px rgba(255, 255, 255, 0.2);
   margin: 50px;
   padding: 22px;
-  font-family: "Lato-Regular";
 }
 .estudioDefinicionHolter__titulo {
   grid-column: 2/4;
   grid-row: 1/2;
-  font-family: "Lato-Regular";
+  font-family: "Nunito", sans-serif;
   font-weight: bold;
   text-decoration: none;
   text-align: start;
@@ -252,8 +252,8 @@ main {
   grid-column: 3/7;
   grid-row: 2/4;
   padding-left: 30px;
-  font-size: 17px;
-  font-family: "heebo-bold";
+  font-size: 20px;
+  font-family: "monserrat-regular";
   color: whitesmoke;
 }
 .estudioDefinicionHolter__boton {
@@ -279,12 +279,11 @@ main {
   border: solid 3px rgba(255, 255, 255, 0.2);
   margin: 50px;
   padding: 22px;
-  font-family: "Lato-Regular";
 }
 .estudioDefinicionMapa__titulo {
   grid-column: 2/4;
   grid-row: 1/2;
-  font-family: "Lato-Regular";
+  font-family: "Nunito", sans-serif;
   font-weight: bold;
   text-decoration: none;
   text-align: start;
@@ -302,8 +301,8 @@ main {
   grid-column: 3/7;
   grid-row: 2/4;
   padding-left: 30px;
-  font-size: 17px;
-  font-family: "heebo-bold";
+  font-size: 20px;
+  font-family: "monserrat-regular";
   color: whitesmoke;
 }
 .estudioDefinicionMapa__boton {
@@ -329,12 +328,11 @@ main {
   border: solid 3px rgba(255, 255, 255, 0.2);
   margin: 50px;
   padding: 22px;
-  font-family: "Lato-Regular";
 }
 .estudioDefinicionErgo__titulo {
   grid-column: 2/4;
   grid-row: 1/2;
-  font-family: "Lato-Regular";
+  font-family: "Nunito", sans-serif;
   font-weight: bold;
   text-decoration: none;
   text-align: start;
@@ -352,8 +350,8 @@ main {
   grid-column: 3/7;
   grid-row: 2/4;
   padding-left: 30px;
-  font-size: 17px;
-  font-family: "heebo-bold";
+  font-size: 20px;
+  font-family: "monserrat-regular";
   color: whitesmoke;
 }
 .estudioDefinicionErgo__boton {
@@ -379,12 +377,11 @@ main {
   border: solid 3px rgba(255, 255, 255, 0.2);
   margin: 50px;
   padding: 22px;
-  font-family: "Lato-Regular";
 }
 .estudioDefinicionEcocardio__titulo {
   grid-column: 2/4;
   grid-row: 1/2;
-  font-family: "Lato-Regular";
+  font-family: "Nunito", sans-serif;
   font-weight: bold;
   text-decoration: none;
   text-align: start;
@@ -402,8 +399,8 @@ main {
   grid-column: 3/7;
   grid-row: 2/4;
   padding-left: 30px;
-  font-size: 17px;
-  font-family: "heebo-bold";
+  font-size: 20px;
+  font-family: "monserrat-regular";
   color: whitesmoke;
 }
 .estudioDefinicionEcocardio__boton {
@@ -429,12 +426,11 @@ main {
   border: solid 3px rgba(255, 255, 255, 0.2);
   margin: 50px;
   padding: 22px;
-  font-family: "Lato-Regular";
 }
 .estudioDefinicionEcoVasos__titulo {
   grid-column: 2/4;
   grid-row: 1/2;
-  font-family: "Lato-Regular";
+  font-family: "Nunito", sans-serif;
   font-weight: bold;
   text-decoration: none;
   text-align: start;
@@ -452,8 +448,8 @@ main {
   grid-column: 3/7;
   grid-row: 2/4;
   padding-left: 30px;
-  font-size: 17px;
-  font-family: "heebo-bold";
+  font-size: 20px;
+  font-family: "monserrat-regular";
   color: whitesmoke;
 }
 .estudioDefinicionEcoVasos__boton {
@@ -479,12 +475,11 @@ main {
   border: solid 3px rgba(255, 255, 255, 0.2);
   margin: 50px;
   padding: 22px;
-  font-family: "Lato-Regular";
 }
 .estudioDefinicionEdadArt__titulo {
   grid-column: 2/4;
   grid-row: 1/2;
-  font-family: "Lato-Regular";
+  font-family: "Nunito", sans-serif;
   font-weight: bold;
   text-decoration: none;
   text-align: start;
@@ -502,8 +497,8 @@ main {
   grid-column: 3/7;
   grid-row: 2/4;
   padding-left: 30px;
-  font-size: 17px;
-  font-family: "heebo-bold";
+  font-size: 20px;
+  font-family: "monserrat-regular";
   color: whitesmoke;
 }
 .estudioDefinicionEdadArt__boton {
@@ -538,6 +533,7 @@ main {
 .tituloEntrevistas__titulo {
   color: whitesmoke;
   padding: 20px;
+  font-family: "Nunito", sans-serif;
 }
 
 .textoDeInicio {
@@ -553,10 +549,11 @@ main {
 .textoDeInicio__Parrafo {
   grid-row: 2/3;
   grid-column: 2/3;
-  font-family: "heebo-Regular";
+  text-align: center;
+  font-family: "Lato", sans-serif;
   color: whitesmoke;
   text-align: center;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 iframe {
@@ -574,6 +571,7 @@ iframe {
 .containerTituloForm__titulo {
   color: whitesmoke;
   padding: 20px;
+  font-family: "Nunito", sans-serif;
 }
 
 .containerTxtoImgForm {
@@ -595,7 +593,7 @@ iframe {
 .containerTxtoImgForm__TxtoForm {
   grid-row: 1/2;
   grid-column: 3/5;
-  font-family: "Heebo-light";
+  font-family: "Lato", sans-serif;
   color: whitesmoke;
   text-align: center;
   font-size: 22px;
@@ -618,6 +616,7 @@ iframe {
 .containerTituloTxtoServicios__titulo {
   color: whitesmoke;
   padding: 20px;
+  font-family: "Nunito", sans-serif;
 }
 
 .containerListaServicios {
@@ -646,7 +645,7 @@ iframe {
   border: solid 3px rgba(255, 255, 255, 0.2);
 }
 .containerTxtoServicios__parrafo {
-  font-family: "Heebo-light";
+  font-family: "Lato", sans-serif;
   color: whitesmoke;
   text-align: center;
   font-size: 22px;

@@ -18,7 +18,7 @@
     display: grid;
     grid-template-columns: 20px 1fr 20px;
     grid-template-rows: 20px 1fr 20px;
-    background-color: #212529;
+    background-color: $colorbg;
     border: solid 3px rgba(255, 255, 255, 0.2);
     margin:20px 150px;
     justify-content: center;
@@ -26,10 +26,8 @@
     &__Parrafo{
         grid-row: 2/3;
         grid-column: 2/3;
-        font-family: "heebo-Regular";
-        color:whitesmoke;
         text-align: center;
-        font-size: 18px;
+        @include estiloParrafos;
     }
 }
 iframe{
