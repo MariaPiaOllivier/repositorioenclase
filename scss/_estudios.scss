@@ -1,13 +1,11 @@
 #titulo{
-    color: whitesmoke;
-    font-family: "heebo-regular";
+    @include estiloH1;
     display: flex;
     justify-content: center;
-    padding: 20px;
 }
 .listadoEstudios{
     display: flex;
-    background-color: #212529;
+    background-color:$colorbg;
     height: 50px;
     align-items: center;
     justify-content: space-evenly;
@@ -29,338 +27,129 @@
 // ELECTROCARDIOGRAMA
 
 .estudioDefinicionEcg{
-    display: grid;
-    grid-template-rows: 80px 1fr 40px;
-    grid-template-columns:  30px 1fr 1fr 1fr 1fr 1fr 30px;
-    background-color: #212529;
-    border: solid 3px rgba(255, 255, 255, 0.2);
-    margin: 50px;
-    padding: 20px;
-    &__titulo{
-        grid-column: 2/4;
-        grid-row: 1/2;
-        font-family: "heebo-regular";
-        font-weight: bold;
-        text-decoration: none;
-        text-align: start;
-        margin-top: 15px;
-        font-size: 20px;
-        color:whitesmoke;
+    @include estudios-definicion;
+     &__titulo{  
+         @include titulo-estudios;
     }
-    &__img{
-        grid-column: 2/3;
-        grid-row: 2/2;
-        width: 100%;
-        margin: 25px 20px 30px 0px
+     &__img{
+        @include img-estudios;
     }
-    &__parrafo{
-        grid-column: 3/7;
-        grid-row: 2/4;
-        padding-left: 30px;
-        font-size: 17px;
-        font-family: "heebo-bold";
-        color:whitesmoke;
+     &__parrafo{
+        @include parrafo-estudios;
     }
-    &__boton{
-        grid-row: 4/5;
-        grid-column: 6/7;
-        padding:10px 0px;
-        font-weight: bold;
-        text-align: end;
-        justify-content: end;
-        color: whitesmoke;
-        text-decoration: none;
-        transition: all 0.2s;
+     &__boton{
+        @include boton-estudios;
     }
-    &__boton:hover{
-        transform: scale(1.1);
+     &__boton:hover{
+        @include hover-boton-estudios;
     }
-}
+
+} 
 .estudioDefinicionHolter{
-    display: grid;
-    grid-template-rows: 80px 1fr 40px;
-    grid-template-columns:  30px 1fr 1fr 1fr 1fr 1fr 30px;
-    background-color: #212529;
-    border: solid 3px rgba(255, 255, 255, 0.2);
-    margin: 50px;
-    padding: 20px;
-    &__titulo{
-        grid-column: 2/4;
-        grid-row: 1/2;
-        font-family: "heebo-regular";
-        font-weight: bold;
-        text-decoration: none;
-        text-align: start;
-        margin-top: 15px;
-        font-size: 20px;
-        color:whitesmoke;
+    @include estudios-definicion;
+     &__titulo{  
+         @include titulo-estudios;
     }
-    &__img{
-        grid-column: 2/3;
-        grid-row: 2/2;
-        width: 100%;
-        margin: 25px 20px 30px 0px
+     &__img{
+        @include img-estudios;
     }
-    &__parrafo{
-        grid-column: 3/7;
-        grid-row: 2/4;
-        padding-left: 30px;
-        font-size: 17px;
-        font-family: "heebo-bold";
-        color:whitesmoke;
+     &__parrafo{
+        @include parrafo-estudios;
     }
-    &__boton{
-        grid-row: 4/5;
-        grid-column: 6/7;
-        padding:10px 0px;
-        font-weight: bold;
-        text-align: end;
-        justify-content: end;
-        color: whitesmoke;
-        text-decoration: none;
-        transition: all 0.2s;
+     &__boton{
+        @include boton-estudios;
     }
-    &__boton:hover{
-        transform: scale(1.1);
+     &__boton:hover{
+        @include hover-boton-estudios;
     }
 }
 .estudioDefinicionMapa{
-    display: grid;
-    grid-template-rows: 80px 1fr 40px;
-    grid-template-columns:  30px 1fr 1fr 1fr 1fr 1fr 30px;
-    background-color: #212529;
-    border: solid 3px rgba(255, 255, 255, 0.2);
-    margin: 50px;
-    padding: 20px;
-    &__titulo{
-        grid-column: 2/4;
-        grid-row: 1/2;
-        font-family: "heebo-regular";
-        font-weight: bold;
-        text-decoration: none;
-        text-align: start;
-        margin-top: 15px;
-        font-size: 20px;
-        color:whitesmoke;
+    @include estudios-definicion;
+     &__titulo{  
+         @include titulo-estudios;
     }
-    &__img{
-        grid-column: 2/3;
-        grid-row: 2/2;
-        width: 100%;
-        margin: 25px 20px 30px 0px
+     &__img{
+        @include img-estudios;
     }
-    &__parrafo{
-        grid-column: 3/7;
-        grid-row: 2/4;
-        padding-left: 30px;
-        font-size: 17px;
-        font-family: "heebo-bold";
-        color:whitesmoke;
+     &__parrafo{
+        @include parrafo-estudios;
     }
-    &__boton{
-        grid-row: 4/5;
-        grid-column: 6/7;
-        padding:10px 0px;
-        font-weight: bold;
-        text-align: end;
-        justify-content: end;
-        color: whitesmoke;
-        text-decoration: none;
-        transition: all 0.2s;
+     &__boton{
+        @include boton-estudios;
     }
-    &__boton:hover{
-        transform: scale(1.1);
+     &__boton:hover{
+        @include hover-boton-estudios;
     }
 }
 .estudioDefinicionErgo{
-    display: grid;
-    grid-template-rows: 80px 1fr 40px;
-    grid-template-columns:  30px 1fr 1fr 1fr 1fr 1fr 30px;
-    background-color: #212529;
-    border: solid 3px rgba(255, 255, 255, 0.2);
-    margin: 50px;
-    padding: 20px;
-    &__titulo{
-        grid-column: 2/4;
-        grid-row: 1/2;
-        font-family: "heebo-regular";
-        font-weight: bold;
-        text-decoration: none;
-        text-align: start;
-        margin-top: 15px;
-        font-size: 20px;
-        color:whitesmoke;
+    @include estudios-definicion;
+     &__titulo{  
+         @include titulo-estudios;
     }
-    &__img{
-        grid-column: 2/3;
-        grid-row: 2/2;
-        width: 100%;
-        margin: 25px 20px 30px 0px
+     &__img{
+        @include img-estudios;
     }
-    &__parrafo{
-        grid-column: 3/7;
-        grid-row: 2/4;
-        padding-left: 30px;
-        font-size: 17px;
-        font-family: "heebo-bold";
-        color:whitesmoke;
+     &__parrafo{
+        @include parrafo-estudios;
     }
-    &__boton{
-        grid-row: 4/5;
-        grid-column: 6/7;
-        padding:10px 0px;
-        font-weight: bold;
-        text-align: end;
-        justify-content: end;
-        color: whitesmoke;
-        text-decoration: none;
-        transition: all 0.2s;
+     &__boton{
+        @include boton-estudios;
     }
-    &__boton:hover{
-        transform: scale(1.1);
+     &__boton:hover{
+        @include hover-boton-estudios;
     }
 }
 .estudioDefinicionEcocardio{
-    display: grid;
-    grid-template-rows: 80px 1fr 40px;
-    grid-template-columns:  30px 1fr 1fr 1fr 1fr 1fr 30px;
-    background-color: #212529;
-    border: solid 3px rgba(255, 255, 255, 0.2);
-    margin: 50px;
-    padding: 20px;
-    &__titulo{
-        grid-column: 2/4;
-        grid-row: 1/2;
-        font-family: "heebo-regular";
-        font-weight: bold;
-        text-decoration: none;
-        text-align: start;
-        margin-top: 15px;
-        font-size: 20px;
-        color:whitesmoke;
+    @include estudios-definicion;
+     &__titulo{  
+         @include titulo-estudios;
     }
-    &__img{
-        grid-column: 2/3;
-        grid-row: 2/2;
-        width: 100%;
-        margin: 25px 20px 30px 0px
+     &__img{
+        @include img-estudios;
     }
-    &__parrafo{
-        grid-column: 3/7;
-        grid-row: 2/4;
-        padding-left: 30px;
-        font-size: 17px;
-        font-family: "heebo-bold";
-        color:whitesmoke;
+     &__parrafo{
+        @include parrafo-estudios;
     }
-    &__boton{
-        grid-row: 4/5;
-        grid-column: 6/7;
-        padding:10px 0px;
-        font-weight: bold;
-        text-align: end;
-        justify-content: end;
-        color: whitesmoke;
-        text-decoration: none;
-        transition: all 0.2s;
+     &__boton{
+        @include boton-estudios;
     }
-    &__boton:hover{
-        transform: scale(1.1);
+     &__boton:hover{
+        @include hover-boton-estudios;
     }
 }
 .estudioDefinicionEcoVasos{
-    display: grid;
-    grid-template-rows: 80px 1fr 40px;
-    grid-template-columns:  30px 1fr 1fr 1fr 1fr 1fr 30px;
-    background-color: #212529;
-    border: solid 3px rgba(255, 255, 255, 0.2);
-    margin: 50px;
-    padding: 20px;
-    &__titulo{
-        grid-column: 2/4;
-        grid-row: 1/2;
-        font-family: "heebo-regular";
-        font-weight: bold;
-        text-decoration: none;
-        text-align: start;
-        margin-top: 15px;
-        font-size: 20px;
-        color:whitesmoke;
+    @include estudios-definicion;
+     &__titulo{  
+         @include titulo-estudios;
     }
-    &__img{
-        grid-column: 2/3;
-        grid-row: 2/2;
-        width: 100%;
-        margin: 25px 20px 30px 0px
+     &__img{
+        @include img-estudios;
     }
-    &__parrafo{
-        grid-column: 3/7;
-        grid-row: 2/4;
-        padding-left: 30px;
-        font-size: 17px;
-        font-family: "heebo-bold";
-        color:whitesmoke;
+     &__parrafo{
+        @include parrafo-estudios;
     }
-    &__boton{
-        grid-row: 4/5;
-        grid-column: 6/7;
-        padding:10px 0px;
-        font-weight: bold;
-        text-align: end;
-        justify-content: end;
-        color: whitesmoke;
-        text-decoration: none;
-        transition: all 0.2s;
+     &__boton{
+        @include boton-estudios;
     }
-    &__boton:hover{
-        transform: scale(1.1);
+     &__boton:hover{
+        @include hover-boton-estudios;
     }
 }
 .estudioDefinicionEdadArt{
-    display: grid;
-    grid-template-rows: 80px 1fr 40px;
-    grid-template-columns:  30px 1fr 1fr 1fr 1fr 1fr 30px;
-    background-color: #212529;
-    border: solid 3px rgba(255, 255, 255, 0.2);
-    margin: 50px;
-    padding: 20px;
-    &__titulo{
-        grid-column: 2/4;
-        grid-row: 1/2;
-        font-family: "heebo-regular";
-        font-weight: bold;
-        text-decoration: none;
-        text-align: start;
-        margin-top: 15px;
-        font-size: 20px;
-        color:whitesmoke;
+    @include estudios-definicion;
+     &__titulo{  
+         @include titulo-estudios;
     }
-    &__img{
-        grid-column: 2/3;
-        grid-row: 2/2;
-        width: 100%;
-        margin: 25px 20px 30px 0px
+     &__img{
+        @include img-estudios;
     }
-    &__parrafo{
-        grid-column: 3/7;
-        grid-row: 2/4;
-        padding-left: 30px;
-        font-size: 17px;
-        font-family: "heebo-bold";
-        color:whitesmoke;
+     &__parrafo{
+        @include parrafo-estudios;
     }
-    &__boton{
-        grid-row: 4/5;
-        grid-column: 6/7;
-        padding:10px 0px;
-        font-weight: bold;
-        text-align: end;
-        justify-content: end;
-        color: whitesmoke;
-        text-decoration: none;
-        transition: all 0.2s;
+     &__boton{
+        @include boton-estudios;
     }
-    &__boton:hover{
-        transform: scale(1.1);
+     &__boton:hover{
+        @include hover-boton-estudios;
     }
 }

@@ -65,7 +65,7 @@ main {
 }
 .NuestraHistoria__titulo h1 {
   color: whitesmoke;
-  margin: 20px 0px 30px 0px;
+  padding: 20px;
 }
 .NuestraHistoria__parrafo {
   display: flex;
@@ -75,7 +75,7 @@ main {
   border: solid 3px rgba(255, 255, 255, 0.2);
 }
 .NuestraHistoria__parrafo p {
-  font-family: "hindSiliguri-Light";
+  font-family: "Heebo-light";
   color: whitesmoke;
   text-align: center;
   font-size: 22px;
@@ -144,10 +144,9 @@ main {
 
 #titulo {
   color: whitesmoke;
-  font-family: "heebo-regular";
+  padding: 20px;
   display: flex;
   justify-content: center;
-  padding: 20px;
 }
 
 .listadoEstudios {
@@ -179,12 +178,13 @@ main {
   background-color: #212529;
   border: solid 3px rgba(255, 255, 255, 0.2);
   margin: 50px;
-  padding: 20px;
+  padding: 22px;
+  font-family: "Lato-Regular";
 }
 .estudioDefinicionEcg__titulo {
   grid-column: 2/4;
   grid-row: 1/2;
-  font-family: "heebo-regular";
+  font-family: "Lato-Regular";
   font-weight: bold;
   text-decoration: none;
   text-align: start;
@@ -228,12 +228,13 @@ main {
   background-color: #212529;
   border: solid 3px rgba(255, 255, 255, 0.2);
   margin: 50px;
-  padding: 20px;
+  padding: 22px;
+  font-family: "Lato-Regular";
 }
 .estudioDefinicionHolter__titulo {
   grid-column: 2/4;
   grid-row: 1/2;
-  font-family: "heebo-regular";
+  font-family: "Lato-Regular";
   font-weight: bold;
   text-decoration: none;
   text-align: start;
@@ -277,12 +278,13 @@ main {
   background-color: #212529;
   border: solid 3px rgba(255, 255, 255, 0.2);
   margin: 50px;
-  padding: 20px;
+  padding: 22px;
+  font-family: "Lato-Regular";
 }
 .estudioDefinicionMapa__titulo {
   grid-column: 2/4;
   grid-row: 1/2;
-  font-family: "heebo-regular";
+  font-family: "Lato-Regular";
   font-weight: bold;
   text-decoration: none;
   text-align: start;
@@ -326,12 +328,13 @@ main {
   background-color: #212529;
   border: solid 3px rgba(255, 255, 255, 0.2);
   margin: 50px;
-  padding: 20px;
+  padding: 22px;
+  font-family: "Lato-Regular";
 }
 .estudioDefinicionErgo__titulo {
   grid-column: 2/4;
   grid-row: 1/2;
-  font-family: "heebo-regular";
+  font-family: "Lato-Regular";
   font-weight: bold;
   text-decoration: none;
   text-align: start;
@@ -375,12 +378,13 @@ main {
   background-color: #212529;
   border: solid 3px rgba(255, 255, 255, 0.2);
   margin: 50px;
-  padding: 20px;
+  padding: 22px;
+  font-family: "Lato-Regular";
 }
 .estudioDefinicionEcocardio__titulo {
   grid-column: 2/4;
   grid-row: 1/2;
-  font-family: "heebo-regular";
+  font-family: "Lato-Regular";
   font-weight: bold;
   text-decoration: none;
   text-align: start;
@@ -424,12 +428,13 @@ main {
   background-color: #212529;
   border: solid 3px rgba(255, 255, 255, 0.2);
   margin: 50px;
-  padding: 20px;
+  padding: 22px;
+  font-family: "Lato-Regular";
 }
 .estudioDefinicionEcoVasos__titulo {
   grid-column: 2/4;
   grid-row: 1/2;
-  font-family: "heebo-regular";
+  font-family: "Lato-Regular";
   font-weight: bold;
   text-decoration: none;
   text-align: start;
@@ -473,12 +478,13 @@ main {
   background-color: #212529;
   border: solid 3px rgba(255, 255, 255, 0.2);
   margin: 50px;
-  padding: 20px;
+  padding: 22px;
+  font-family: "Lato-Regular";
 }
 .estudioDefinicionEdadArt__titulo {
   grid-column: 2/4;
   grid-row: 1/2;
-  font-family: "heebo-regular";
+  font-family: "Lato-Regular";
   font-weight: bold;
   text-decoration: none;
   text-align: start;
@@ -531,7 +537,7 @@ main {
 }
 .tituloEntrevistas__titulo {
   color: whitesmoke;
-  margin: 20px 0px 30px 0px;
+  padding: 20px;
 }
 
 .textoDeInicio {
@@ -567,6 +573,7 @@ iframe {
 }
 .containerTituloForm__titulo {
   color: whitesmoke;
+  padding: 20px;
 }
 
 .containerTxtoImgForm {
@@ -588,9 +595,10 @@ iframe {
 .containerTxtoImgForm__TxtoForm {
   grid-row: 1/2;
   grid-column: 3/5;
-  font-family: "heebo-Regular";
+  font-family: "Heebo-light";
   color: whitesmoke;
-  font-size: 18px;
+  text-align: center;
+  font-size: 22px;
 }
 
 .row {
@@ -609,7 +617,7 @@ iframe {
 }
 .containerTituloTxtoServicios__titulo {
   color: whitesmoke;
-  margin: 20px 0px 30px 0px;
+  padding: 20px;
 }
 
 .containerListaServicios {
@@ -638,12 +646,13 @@ iframe {
   border: solid 3px rgba(255, 255, 255, 0.2);
 }
 .containerTxtoServicios__parrafo {
+  font-family: "Heebo-light";
+  color: whitesmoke;
+  text-align: center;
+  font-size: 22px;
   grid-column: 2/5;
   grid-row: 2/3;
   text-align: center;
-  font-family: "heebo-Regular";
-  color: whitesmoke;
-  font-size: 18px;
   padding: 25px;
 }
 

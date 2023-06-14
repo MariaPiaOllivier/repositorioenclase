@@ -6,7 +6,7 @@
     align-items: center;
     padding-top: 20px;
     &__titulo{
-        color: whitesmoke;
+        @include estiloH1;
     }
 }
 .containerTxtoImgForm{
@@ -27,9 +27,7 @@
     &__TxtoForm{
         grid-row: 1/2;
         grid-column: 3/5;
-        font-family: "heebo-Regular";
-        color:whitesmoke;
-        font-size: 18px;
+        @include estiloParrafos;
     }
 }
 .row{

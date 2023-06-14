@@ -11,8 +11,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     &__titulo{
-        color: whitesmoke;
-        margin: 20px 0px 30px 0px;
+        @include estiloH1;
     }
 }
 .textoDeInicio{

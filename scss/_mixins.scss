@@ -1,0 +1,59 @@
+@mixin estudios-definicion{
+    display: grid;
+    grid-template-rows: 80px 1fr 40px;
+    grid-template-columns:  30px 1fr 1fr 1fr 1fr 1fr 30px;
+    background-color: #212529;
+    border: solid 3px rgba(255, 255, 255, 0.2);
+    margin: 50px;
+    padding: 22px;
+    font-family: "Lato-Regular";
+}
+@mixin titulo-estudios{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    font-family: "Lato-Regular";
+    font-weight: bold;
+    text-decoration: none;
+    text-align: start;
+    margin-top: 15px;
+    font-size: 20px;
+    color:whitesmoke;
+}
+@mixin img-estudios{
+    grid-column: 2/3;
+    grid-row: 2/2;
+    width: 100%;
+    margin: 25px 20px 30px 0px
+}
+@mixin parrafo-estudios{
+    grid-column: 3/7;
+    grid-row: 2/4;
+    padding-left: 30px;
+    font-size: 17px;
+    font-family: "heebo-bold";
+    color:whitesmoke;
+}
+@mixin boton-estudios{
+    grid-row: 4/5;
+    grid-column: 6/7;
+    padding:10px 0px;
+    font-weight: bold;
+    text-align: end;
+    justify-content: end;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+@mixin hover-boton-estudios{
+    transform: scale(1.1);
+}
+@mixin estiloH1{
+    color: whitesmoke;
+    padding: 20px;
+}
+@mixin estiloParrafos{
+    font-family: "Heebo-light";
+    color:whitesmoke;
+    text-align: center;
+    font-size: 22px;
+}
