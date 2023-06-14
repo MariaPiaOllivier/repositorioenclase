@@ -13,11 +13,11 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #212529;
-    border: solid 3px rgba(255, 255, 255, 0.2);
+    @include bg-borde;
     &__listado{
         text-decoration: none;
-        color: whitesmoke;
+        color: $colorLetra;
+        font-family: 'Nunito', sans-serif;
         margin: 20px 0px 30px 0px;
         font-size: 20px;
         padding: 8px;
@@ -29,8 +29,7 @@
     margin: 50px 150px;
     grid-template-columns: 20px 1fr 1fr 1fr 20px;
     grid-template-rows: 20px 1fr 20px;
-    background-color: #212529;
-    border: solid 3px rgba(255, 255, 255, 0.2); 
+    @include bg-borde; 
     &__parrafo{
         @include estiloParrafos;
         grid-column: 2/5;

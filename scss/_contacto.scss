@@ -1,7 +1,7 @@
 .containerUbicacion{
     display: flex;
     justify-content:space-evenly;
-    color: whitesmoke;
+    color: $colorLetra;
     &__lineas{
         h2{
             margin: 10px 0px;

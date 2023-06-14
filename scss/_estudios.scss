@@ -10,17 +10,16 @@
     align-items: center;
     justify-content: space-evenly;
     &__Estudios{
-        font-family: "heebo-light";
+        font-family: 'Nunito', sans-serif;
         font-size: 16px;
         text-decoration: none;
-        color: whitesmoke;
+        color: $colorLetra;
         padding: 5px;
         transition: all 0.3s;
     }
     &__Estudios:hover{
         transform: scale(1.1);
-        background-color: whitesmoke;
-        color: #212529;
+        @include bg-borde;
         font-weight: bold;
     }
 }

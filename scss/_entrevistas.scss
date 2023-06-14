@@ -18,8 +18,7 @@
     display: grid;
     grid-template-columns: 20px 1fr 20px;
     grid-template-rows: 20px 1fr 20px;
-    background-color: $colorbg;
-    border: solid 3px rgba(255, 255, 255, 0.2);
+    @include bg-borde;
     margin:20px 150px;
     justify-content: center;
     align-items: center;
