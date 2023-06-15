@@ -51,7 +51,7 @@ main {
 .nav-link:hover {
   transform: scale 1.1;
   color: #212529 !important;
-  background: whitesmoke;
+  background: gray !important;
   font-weight: bold;
 }
 
@@ -1240,6 +1240,45 @@ iframe {
     margin-left: 75px;
   }
 }
+.containerTelefonos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 10px 250px;
+  background-color: #212529;
+  border: solid 3px rgba(255, 255, 255, 0.2);
+}
+.containerTelefonos h2 {
+  color: whitesmoke;
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+}
+.containerTelefonos p {
+  font-family: "Lato", sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 22px;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 0px 50px;
+}
+.containerTelefonos a {
+  color: whitesmoke;
+  font-size: 32px;
+}
+.containerTelefonos a:hover {
+  background-color: whitesmoke;
+  color: #212529;
+}
+.containerTelefonos i {
+  padding: 0px 20px;
+  font-size: 34px;
+}
+
 .containerUbicacion {
   display: flex;
   justify-content: space-evenly;
@@ -1248,10 +1287,20 @@ iframe {
 .containerUbicacion__lineas h2 {
   margin: 10px 0px;
   text-align: center;
+  color: whitesmoke;
 }
-.containerUbicacion__lineas img {
-  width: 300px;
-  align-items: center;
+.containerUbicacion__lineas p {
+  font-family: "Lato", sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 22px;
+}
+.containerUbicacion__lineas p a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.containerUbicacion__lineas p i {
+  padding: 0px 13px;
 }
 .containerUbicacion__mapa h2 {
   margin: 10px 0px;

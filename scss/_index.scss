@@ -46,8 +46,8 @@ main{
  }
  .nav-link:hover{
     transform: scale (1.1);
-    color: #212529 !important;
-    background: whitesmoke;
+    color: $colorbg !important;
+    background: gray !important;
     font-weight: bold;
  }
  .NuestraHistoria{

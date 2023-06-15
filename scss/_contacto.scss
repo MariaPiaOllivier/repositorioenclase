@@ -1,3 +1,38 @@
+.containerTelefonos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-evenly;
+    color: $colorLetra;
+    text-decoration: none;
+    margin: 10px 250px;
+    @include bg-borde;
+    h2{
+        @include estiloH1;
+
+    }
+    p{
+        @include estiloParrafos;
+        
+        color: $colorLetra;
+        text-decoration: none;
+        padding: 0px 50px;
+    }
+    a{
+        color: $colorLetra;
+        font-size: 32px;
+      
+    }
+    a:hover{
+        background-color: whitesmoke;
+        color: $colorbg
+    }
+    i{
+        padding: 0px 20px;
+        font-size: 34px;
+    }
+}
 .containerUbicacion{
     display: flex;
     justify-content:space-evenly;
@@ -5,11 +40,18 @@
     &__lineas{
         h2{
             margin: 10px 0px;
-            text-align: center;
+            text-align: center; 
+            color: $colorLetra;  
         }
-        img{
-            width: 300px;  
-            align-items: center;          
+        p{
+            @include estiloParrafos;
+            a{
+                text-decoration: none;
+                color: $colorLetra
+            }
+            i{
+                padding:  0px 13px;
+            }
         }
     }
     &__mapa{
