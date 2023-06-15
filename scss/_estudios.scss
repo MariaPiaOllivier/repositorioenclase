@@ -19,7 +19,9 @@
     }
     &__Estudios:hover{
         transform: scale(1.1);
-        @include bg-borde;
+        font-weight:bolder;
+        background-color: whitesmoke;
+        color: #212529;
         font-weight: bold;
     }
 }
