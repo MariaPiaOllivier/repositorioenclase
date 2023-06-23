@@ -29,6 +29,17 @@
         @include estiloParrafos;
     }
 }
-iframe{
-    height: 500px;
+// .card-group{
+//     display: flex;
+//     justify-content: space-around;
+// }
+// .card{
+//     border: none;
+//     margin: 20px;
+//     padding: 30px;
+// }
+
+.containerYoutube{
+    display: flex;
+    flex-direction: row;
 }
