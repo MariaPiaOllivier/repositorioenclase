@@ -60,3 +60,7 @@
     background-color: $colorbg;
     border: $borde;
 }
+@mixin posicionElemento{
+    justify-self:center;
+    align-self: center;
+}

@@ -96,7 +96,7 @@
         </div>
         <br>
         <br>
-      <form class="row g-3 needs-validation justify-content-md-center" novalidate>
+      <!-- <form class="row g-3 needs-validation justify-content-md-center" novalidate>
         <div class="form-datos col-md-3 d-flex">
           <label for="validationTooltip01" class="form-label"></label>
           <input type="text" class="form-control" id="validationTooltip01"placeholder="Nombre" value="" required>
@@ -155,9 +155,52 @@
       <div class="col-1">
         <button class="btn btn-secondary" type="submit">ENVIAR</button>
       </div>
-    </form>
+    </form> -->
     <br>
     <br>
+    <form class="contenidoForm">
+
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Personal</option>
+        <option value="1">Médico</option>
+        <option value="2">Administrativo</option>
+        <option value="3">Personal de Salud</option>
+      </select>
+
+
+      <div class="nombreApellForm">
+          <label for=""></label>
+          <input type="text" placeholder="Nombre Completo">
+      </div>
+
+      <div class="generoForm">
+          <label for="">Género:</label>
+          <input name="genero" type="radio" value="Femenino">Femenino
+          <input name="genero" type="radio" value="Masculino">Maculino
+      </div>
+
+      <div class="telefonoForm">
+          <label for=""></label>
+          <input type="number" placeholder="Teléfono">
+      </div>
+
+      <div class="emailForm">
+          <label for=""></label>
+          <input type="email" placeholder="E-mail">
+      </div>
+
+      <div class="experienciaForm">
+          <label for="">Contanos tu Experiencia Laboral:</label>
+      </div>
+
+      <div class="txtAreaForm">
+          <textarea name="" id="" cols="70" placeholder="Comple con su Experiencia" rows="10"></textarea>
+      </div>
+
+      <div class="botonEnviar">
+          <input type="button" value="Enviar">
+      </div>
+  </form>
     <br>
     <br>
     <br>
