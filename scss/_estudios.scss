@@ -1,28 +1,29 @@
 #titulo{
     @include estiloH1;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
 .listadoEstudios{
     display: flex;
-    background-color:$colorbg;
+    background-color:rgba(51, 51, 51, 0.234);
     height: 50px;
+    padding: 30px 5px;
     align-items: center;
     justify-content: space-evenly;
     &__Estudios{
         font-family: 'Nunito', sans-serif;
         font-size: 16px;
-        text-decoration: none;
-        color: $colorLetra;
+        font-weight: bold;
+        text-decoration: none;        
+        color: $colorLetraOscura;
         padding: 5px;
         transition: all 0.3s;
     }
     &__Estudios:hover{
         transform: scale(1.1);
-        font-weight:bolder;
-        background-color: whitesmoke;
-        color: #212529;
-        font-weight: bold;
+        background-color: #212529;
+        color: $colorLetra;
     }
 }
 // ELECTROCARDIOGRAMA
@@ -143,6 +144,7 @@
     }
      &__img{
         @include img-estudios;
+        margin-top: 70px;
     }
      &__parrafo{
         @include parrafo-estudios;

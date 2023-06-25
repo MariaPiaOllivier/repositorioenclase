@@ -29,68 +29,163 @@
         @include estiloParrafos;
     }
 }
-// .card-group{
-//     display: flex;
-//     justify-content: space-around;
-// }
-// .card{
-//     border: none;
-//     margin: 20px;
-//     padding: 30px;
-// }
-
 .containerYoutube{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
-    grid-gap: 40px;
-    // img{
-    //     width: 450px;
-    //     height: 300px;
-    //     margin: 30px;
-    // }
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    padding: 30px;
+    margin: 30px;
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.234);
+    .img__deporteAdultos{
+        background-image: url(../Assets/img/deporteAdultos.png);
+        @include imgEntrevistas;
+        .boton{
+            @include btnEntrevistas;
+        }
+        .boton:hover{
+            @include btnHover;
+        }
+    }
+    .img__diabetes{
+        background-image: url(../Assets/img/diabetes.png);
+        @include imgEntrevistas;
+        .boton{
+            @include btnEntrevistas;
+        }
+        .boton:hover{
+            @include btnHover;
+        }
+    }
+    .img__vitaminas{
+        background-image: url(../Assets/img/vitaminas.png);
+        @include imgEntrevistas;
+        .boton{
+            @include btnEntrevistas;
+        }
+        .boton:hover{
+            @include btnHover;
+        }
+    }
+    .img__siesta{
+        background-image: url(../Assets/img/dormirSiesta.png);
+        @include imgEntrevistas;
+        .boton{
+            @include btnEntrevistas;
+        }
+        .boton:hover{
+            @include btnHover;
+        }
+    }
+    .img__HTA{
+        background-image: url(../Assets/img/HipertensionAmistad.png);
+        @include imgEntrevistas;
+        .boton{
+            @include btnEntrevistas;
+        }
+        .boton:hover{
+            @include btnHover;
+        }
+    }
+    .img__arritmia{
+        background-image: url(../Assets/img/arritmiaACV.png);
+        @include imgEntrevistas;
+        .boton{
+            @include btnEntrevistas;
+        }
+        .boton:hover{
+            @include btnHover;
+        }
+    }
+    .img__envejecimientoVascular{
+        background-image: url(../Assets/img/envejecimientoVascular.png);
+        @include imgEntrevistas;
+        .boton{
+            @include btnEntrevistas;
+        }
+        .boton:hover{
+            @include btnHover;
+        }
+    }
+    .img__aspirina{
+        background-image: url(../Assets/img/aspinina.png);
+        @include imgEntrevistas;
+        .boton{
+            @include btnEntrevistas;
+        }
+        .boton:hover{
+            @include btnHover;
+        }
+    }
+}
 
-   
+
+
     // &__8{
-    //     grid-column: 1/2;
+    //     grid-column: 1/3;
     //     grid-row: 1/2;
-    //     @include posicionElemento
+    //     @include posicionElemento;
+    //     img{
+    //         width: 500px;
+    //     }
     // }
     // &__7{
-    //     grid-column: 2/3;
+    //     grid-column: 3/5;
     //     grid-row: 1/2;
-    //     @include posicionElemento
+    //     @include posicionElemento;
+    //     img{
+    //         width: 500px;
+    //     }
     // }
     // &__6{
-    //     grid-column: 1/2;
+    //     grid-column: 1/3;
     //     grid-row: 2/3;
-    //     @include posicionElemento
+    //     @include posicionElemento;
+    //     img{
+    //         width: 500px;
+    //     }
     // }
     // &__5{
-    //     grid-column: 2/3;
+    //     grid-column: 3/5;
     //     grid-row: 2/3;
-    //     @include posicionElemento
+    //     @include posicionElemento;
+    //     img{
+    //         width: 500px;
+    //     }
     // }
     // &__4{
-    //     grid-column: 1/2;
+    //     grid-column: 1/3;
     //     grid-row: 3/4;
-    //     @include posicionElemento
+    //     @include posicionElemento;
+    //     img{
+    //         width: 500px;
+    //     }
     // }
     // &__3{
-    //     grid-column: 2/3;
+    //     grid-column: 3/5;
     //     grid-row: 3/4;
-    //     @include posicionElemento
+    //     @include posicionElemento;
+    //     img{
+    //         width: 500px;
+    //     }
     // }
     // &__2{
-    //     grid-column: 1/2;
+    //     grid-column: 1/3;
     //     grid-row: 4/5;
-    //     @include posicionElemento
+    //     @include posicionElemento;
+    //     img{
+    //         width: 500px;
+    //     }
     // }
     // &__1{
-    //     grid-column: 2/3;
+    //     grid-column: 3/5;
     //     grid-row: 4/5;
-    //     @include posicionElemento
+    //     @include posicionElemento;
+    //     img{
+    //         width: 500px;
+    //     }
     // }
-}
+
 .btn {
     text-decoration: none;
     margin: 0px 30px;

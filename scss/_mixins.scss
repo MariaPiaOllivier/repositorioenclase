@@ -2,11 +2,13 @@
     display: grid;
     grid-template-rows: 80px 1fr 40px;
     grid-template-columns:  30px 1fr 1fr 1fr 1fr 1fr 30px;
-    @include bg-borde;
+    background-color: rgba(51, 51, 51, 0.234);
     margin: 50px;
     padding: 22px;
 }
 @mixin titulo-estudios{
+    justify-self: center;
+    align-self: center;
     grid-column: 2/4;
     grid-row: 1/2;
     font-family: 'Nunito', sans-serif;
@@ -14,22 +16,26 @@
     text-decoration: none;
     text-align: start;
     margin-top: 15px;
-    font-size: 20px;
-    color:$colorLetra;
+    font-size: 25px;
+    color:$colorLetraOscura;
 }
 @mixin img-estudios{
-    grid-column: 2/3;
-    grid-row: 2/2;
-    width: 100%;
+    justify-self: center;
+    align-self: center;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    width: 90%;
     margin: 25px 20px 30px 0px
 }
 @mixin parrafo-estudios{
-    grid-column: 3/7;
+    justify-self: center;
+    align-self: center;
+    grid-column: 4/7;
     grid-row: 2/4;
     padding-left: 30px;
     font-size: 20px;
     font-family: "'Lato', sans-serif";
-    color:$colorLetra;
+    color:$colorLetraOscura;
 }
 @mixin boton-estudios{
     grid-row: 4/5;
@@ -38,29 +44,52 @@
     font-weight: bold;
     text-align: end;
     justify-content: end;
-    color: $colorLetra;
+    color: $colorLetraOscura;
     text-decoration: none;
     transition: all 0.2s;
 }
 @mixin hover-boton-estudios{
     transform: scale(1.1);
+    color:$colorLetra;
 }
 @mixin estiloH1{
-    color: $colorLetra;
-    padding: 20px;
-    font-family: 'Nunito', sans-serif;
+    color:#212529;
+    font-weight:bold !important;
+    padding-top:30px;
+    font-family:'Nunito', sans-serif;
 }
 @mixin estiloParrafos{
     font-family: 'Lato', sans-serif;
-    color:$colorLetra;
+    color:$colorLetraOscura;
     text-align: center;
     font-size: 22px;
 }
 @mixin bg-borde{
-    background-color: $colorbg;
+    background-color:rgba(51, 51, 51, 0.234);
     border: $borde;
 }
 @mixin posicionElemento{
     justify-self:center;
     align-self: center;
+}
+@mixin imgEntrevistas{
+    width: 400px;
+    height: 250px;
+    padding-top: 190px;
+    padding-left: 290px;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+@mixin btnEntrevistas{
+    color:$colorLetraOscura;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    background-color:whitesmoke;
+    padding: 10px;
+    transition: all 0.3s;
+}
+@mixin btnHover{
+    background-color: $colorbg;
+    color:$colorLetra;
 }

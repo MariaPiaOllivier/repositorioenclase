@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     &__titulo{
         @include estiloH1;
+        padding-bottom: 20px;
     }
 }
 .containerListaServicios{
@@ -16,7 +17,8 @@
     @include bg-borde;
     &__listado{
         text-decoration: none;
-        color: $colorLetra;
+        color: $colorLetraOscura;
+        font-weight: bold;
         font-family: 'Nunito', sans-serif;
         margin: 20px 0px 30px 0px;
         font-size: 20px;

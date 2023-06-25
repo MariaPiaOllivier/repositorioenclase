@@ -1,11 +1,11 @@
 main{
-    background-image:linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), 
-    url(../Assets/img/esquina.png);
+    background-image:linear-gradient(rgba(192, 190, 190, 0.75),rgba(192, 190, 190, 0.75)), url(../Assets/img/fondoECG.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
  }
+ 
 /* WHATSAPP */
 
 .linkWhas{
@@ -30,6 +30,9 @@ main{
     background-color: #fff;
     transform: scale(1.2, 1.2);
 }
+ 
+ 
+ 
  /* index html */
 
  .navbar-toggler-icon{

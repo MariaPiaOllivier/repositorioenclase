@@ -1,3 +1,9 @@
+h1{
+  @include estiloH1;
+  padding-top: 5px;
+  text-align: center;
+
+}
 .containerTelefonos{
     display: flex;
     flex-direction: column;
@@ -8,26 +14,20 @@
     text-decoration: none;
     margin: 10px 250px;
     @include bg-borde;
-    
-    h2{
-        @include estiloH1;
-
-    }
     p{
         @include estiloParrafos;
-        
-        color: $colorLetra;
+        color: $colorLetraOscura;
         text-decoration: none;
         padding: 0px 50px;
+        margin: 50px;
     }
     a{
-        color: $colorLetra;
+        color: $colorLetraOscura;
         font-size: 32px;
       
     }
     a:hover{
-        background-color: whitesmoke;
-        color: $colorbg
+        color: $colorLetra;
     }
     i{
         padding: 0px 20px;
@@ -37,28 +37,12 @@
 .containerUbicacion{
     display: flex;
     justify-content:space-evenly;
-    color: $colorLetra;
-    &__lineas{
-        h2{
-            margin: 10px 0px;
-            text-align: center; 
-            color: $colorLetra;  
-        }
-        p{
-            @include estiloParrafos;
-            a{
-                text-decoration: none;
-                color: $colorLetra
-            }
-            i{
-                padding:  0px 13px;
-            }
-        }
-    }
+    color:$colorLetraOscura;
     &__mapa{
         h2{
-            margin: 10px 0px;
+            @include estiloH1;
             text-align: center; 
+            padding: 20px;
         }
         iframe{
             align-content: center;
