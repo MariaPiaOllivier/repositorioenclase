@@ -48,10 +48,7 @@
     //     height: 300px;
     //     margin: 30px;
     // }
-    .btn {
-        text-decoration: none;
-        margin: 0px 30px;
-    }
+
    
     // &__8{
     //     grid-column: 1/2;
@@ -93,6 +90,10 @@
     //     grid-row: 4/5;
     //     @include posicionElemento
     // }
+}
+.btn {
+    text-decoration: none;
+    margin: 0px 30px;
 }
 
 
