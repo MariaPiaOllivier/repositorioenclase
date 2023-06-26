@@ -810,6 +810,66 @@ main {
   font-family: "Nunito", sans-serif;
 }
 
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  text-align: center;
+  padding: 30px;
+}
+.containerForm input {
+  align-items: center;
+  width: 158%;
+  padding: 9px;
+  margin: 9px 0px;
+  border: none;
+  border-bottom: solid 2px #1a00df;
+  background-color: rgba(51, 51, 51, 0.234);
+}
+.containerForm input:focus {
+  background-color: rgba(114, 114, 189, 0.432);
+  outline: none;
+  border-bottom: solid 2px #302d46;
+}
+.containerForm select {
+  width: 158%;
+  padding: 9px;
+  margin: 9px 0px;
+  border: none;
+  border-bottom: solid 2px #1a00df;
+  background-color: rgba(51, 51, 51, 0.234);
+}
+.containerForm select:focus {
+  background-color: rgba(114, 114, 189, 0.432);
+  outline: none;
+  border-bottom: solid 2px #302d46;
+}
+.containerForm textarea {
+  border: none;
+  border-bottom: solid 2px #202125;
+  border-bottom: solid 2px #1a00df;
+  margin: 9px 0px;
+  background-color: rgba(51, 51, 51, 0.234);
+  outline: none;
+  resize: none;
+}
+.containerForm textarea:focus {
+  background-color: rgba(114, 114, 189, 0.432);
+  outline: none;
+  border-bottom: solid 2px #302d46;
+}
+.containerForm .botonEnviar input {
+  margin: 9px 0px;
+  background-color: #2f2f30;
+  color: whitesmoke;
+  border-bottom: #1a00df;
+}
+.containerForm .botonEnviar input:focus {
+  background-color: rgba(85, 85, 116, 0.432);
+  color: rgba(85, 85, 116, 0.432);
+  box-shadow: #2f2f30;
+}
+
 .containerTxtoImgForm {
   display: grid;
   grid-template-columns: 20px 1fr 1fr 1fr 20px;
@@ -833,13 +893,6 @@ main {
   color: #212529;
   text-align: center;
   font-size: 22px;
-}
-
-.row {
-  background-color: rgba(51, 51, 51, 0.234);
-  border: solid 3px rgba(255, 255, 255, 0.2);
-  margin: 20px 100px;
-  height: 400px;
 }
 
 .containerTituloTxtoServicios {
