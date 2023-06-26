@@ -45,14 +45,13 @@ main {
 }
 
 .nav-link {
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 
 .nav-link:hover {
-  transform: scale 1.1;
+  transform: scale(1.1);
   color: #212529 !important;
-  background: gray !important;
-  font-weight: bold;
+  background: #ffffff !important;
 }
 
 .NuestraHistoria {
