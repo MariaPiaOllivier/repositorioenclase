@@ -20,175 +20,108 @@
     }
 }
 .estudioDefinicionEcg{
-    background: #212529;
-    height: auto;
-    grid-column: 2/6;
+    @include estudioDefinicionMQ;
     &__titulo{
-        color: whitesmoke;
-        grid-column: 1/8;
-        font-size: 15px;
-        text-align: center;
-        align-items: center;
+        @include tituloEstudiosMQ;
     }
     &__img{
-        display: none;
+        @include imgEstudiosMQ;
     }
     &__parrafo{
-        color: whitesmoke;
-        grid-column: 1/8;
-        padding-left: 0px;
-        text-align: center;
-        font-size: 15px;
+        @include parrafoEstudiosMQ;
     }
     &__boton{
         display: none;
     }
 }
 .estudioDefinicionHolter{
-    background: #212529;
-    height: auto;
-    grid-column: 2/6;
+    @include estudioDefinicionMQ;
     &__titulo{
-        color: whitesmoke;
-        grid-column: 1/8;
-        font-size: 15px;
-        text-align: center;
-        align-items: center;
+        @include tituloEstudiosMQ;
     }
     &__img{
-        display: none;
+        @include imgEstudiosMQ;
     }
     &__parrafo{
-        color: whitesmoke;
-        grid-column: 1/8;
-        padding-left: 0px;
-        text-align: center;
-        font-size: 15px;
+        @include parrafoEstudiosMQ;
     }
     &__boton{
         display: none;
     }
 }
 .estudioDefinicionMapa{
-    background: #212529;
-    height: auto;
-    grid-column: 2/6;
+    @include estudioDefinicionMQ;
     &__titulo{
-        color: whitesmoke;
-        grid-column: 1/8;
-        font-size: 15px;
-        text-align: center;
-        align-items: center;
+        @include tituloEstudiosMQ;
     }
     &__img{
-        display: none;
+        @include imgEstudiosMQ;
     }
     &__parrafo{
-        color: whitesmoke;
-        grid-column: 1/8;
-        padding-left: 0px;
-        text-align: center;
-        font-size: 15px;
+        @include parrafoEstudiosMQ;
     }
     &__boton{
         display: none;
     }
 }    
 .estudioDefinicionErgo{
-    background: #212529;
-    height: auto;
-    grid-column: 2/6;
+    @include estudioDefinicionMQ;
     &__titulo{
-        color: whitesmoke;
-        grid-column: 1/8;
-        font-size: 15px;
-        text-align: center;
-        align-items: center;
+        @include tituloEstudiosMQ;
     }
     &__img{
-        display: none;
+        @include imgEstudiosMQ;
     }
     &__parrafo{
-        color: whitesmoke;
-        grid-column: 1/8;
-        padding-left: 0px;
-        text-align: center;
-        font-size: 15px;
+        @include parrafoEstudiosMQ;
     }
     &__boton{
         display: none;
     }
 }
 .estudioDefinicionEcocardio{
-    background: #212529;
-    height: auto;
-    grid-column: 2/6;
+    @include estudioDefinicionMQ;
     &__titulo{
-        color: whitesmoke;
-        grid-column: 1/8;
-        font-size: 15px;
-        text-align: center;
-        align-items: center;
+        @include tituloEstudiosMQ;
     }
     &__img{
-        display: none;
+        @include imgEstudiosMQ;
     }
     &__parrafo{
-        color: whitesmoke;
-        grid-column: 1/8;
-        padding-left: 0px;
-        text-align: center;
-        font-size: 15px;
+        @include parrafoEstudiosMQ;
     }
     &__boton{
         display: none;
     }
 }
 .estudioDefinicionEcoVasos{
-    background: #212529;
-    height: auto;
-    grid-column: 2/6;
+    @include estudioDefinicionMQ;
     &__titulo{
-        color: whitesmoke;
-        grid-column: 1/8;
-        font-size: 15px;
-        text-align: center;
-        align-items: center;
+        @include tituloEstudiosMQ;
     }
     &__img{
-        display: none;
+        @include imgEstudiosMQ;
     }
     &__parrafo{
-        color: whitesmoke;
-        grid-column: 1/8;
-        padding-left: 0px;
-        text-align: center;
-        font-size: 15px;
+        @include parrafoEstudiosMQ;
     }
     &__boton{
         display: none;
     }
 }
 .estudioDefinicionEdadArt{
-    background: #212529;
+    grid-template-rows: 30px 1fr;
+    @include bg-borde;
     height: auto;
     grid-column: 2/6;
     &__titulo{
-        color: whitesmoke;
-        grid-column: 1/8;
-        font-size: 15px;
-        text-align: center;
-        align-items: center;
+        @include tituloEstudiosMQ;
     }
     &__img{
-        display: none;
+        @include imgEstudiosMQ;
     }
     &__parrafo{
-        color: whitesmoke;
-        grid-column: 1/8;
-        padding-left: 0px;
-        text-align: center;
-        font-size: 15px;
+        @include parrafoEstudiosMQ;
     }
     &__boton{
         display: none;
@@ -333,180 +266,114 @@
         }
     }
     .estudioDefinicionEcg{
-        background: #212529;
-        height: auto;
-        grid-column: 2/6;
+        @include estudioDefinicionMQ;
         &__titulo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            font-size: 15px;
-            text-align: center;
-            align-items: center;
+            @include tituloEstudiosMQ;
         }
         &__img{
-            display: none;
+            @include imgEstudiosMQ;
         }
         &__parrafo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            padding-left: 0px;
-            text-align: center;
-            font-size: 15px;
+            @include parrafoEstudiosMQ;
         }
         &__boton{
             display: none;
         }
     }
     .estudioDefinicionHolter{
-        background: #212529;
-        height: auto;
-        grid-column: 2/6;
+        @include estudioDefinicionMQ;
         &__titulo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            font-size: 15px;
-            text-align: center;
-            align-items: center;
+            @include tituloEstudiosMQ;
         }
         &__img{
-            display: none;
+            @include imgEstudiosMQ;
         }
         &__parrafo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            padding-left: 0px;
-            text-align: center;
-            font-size: 15px;
+            @include parrafoEstudiosMQ;
         }
         &__boton{
             display: none;
         }
     }
     .estudioDefinicionMapa{
-        background: #212529;
-        height: auto;
-        grid-column: 2/6;
+        @include estudioDefinicionMQ;
         &__titulo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            font-size: 15px;
-            text-align: center;
-            align-items: center;
+            @include tituloEstudiosMQ;
         }
         &__img{
-            display: none;
+            @include imgEstudiosMQ;
         }
         &__parrafo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            padding-left: 0px;
-            text-align: center;
-            font-size: 15px;
+            @include parrafoEstudiosMQ;
         }
         &__boton{
             display: none;
         }
     }    
     .estudioDefinicionErgo{
-        background: #212529;
-        height: auto;
-        grid-column: 2/6;
+        @include estudioDefinicionMQ;
         &__titulo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            font-size: 15px;
-            text-align: center;
-            align-items: center;
+            @include tituloEstudiosMQ;
         }
         &__img{
-            display: none;
+            @include imgEstudiosMQ;
         }
         &__parrafo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            padding-left: 0px;
-            text-align: center;
-            font-size: 15px;
+            @include parrafoEstudiosMQ;
         }
         &__boton{
             display: none;
         }
     }
     .estudioDefinicionEcocardio{
-        background: #212529;
-        height: auto;
-        grid-column: 2/6;
+        @include estudioDefinicionMQ;
         &__titulo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            font-size: 15px;
-            text-align: center;
-            align-items: center;
+            @include tituloEstudiosMQ;
         }
         &__img{
-            display: none;
+            @include imgEstudiosMQ;
         }
         &__parrafo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            padding-left: 0px;
-            text-align: center;
-            font-size: 15px;
+            @include parrafoEstudiosMQ;
         }
         &__boton{
             display: none;
         }
     }
     .estudioDefinicionEcoVasos{
-        background: #212529;
-        height: auto;
-        grid-column: 2/6;
+        @include estudioDefinicionMQ;
         &__titulo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            font-size: 15px;
-            text-align: center;
-            align-items: center;
+            @include tituloEstudiosMQ;
         }
         &__img{
-            display: none;
+            @include imgEstudiosMQ;
         }
         &__parrafo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            padding-left: 0px;
-            text-align: center;
-            font-size: 15px;
+            @include parrafoEstudiosMQ;
         }
         &__boton{
             display: none;
         }
     }
     .estudioDefinicionEdadArt{
-        background: #212529;
+        grid-template-rows: 30px 1fr;
+        @include bg-borde;
         height: auto;
         grid-column: 2/6;
         &__titulo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            font-size: 15px;
-            text-align: center;
-            align-items: center;
+            @include tituloEstudiosMQ;
         }
         &__img{
-            display: none;
+            @include imgEstudiosMQ;
         }
         &__parrafo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            padding-left: 0px;
-            text-align: center;
-            font-size: 15px;
+            @include parrafoEstudiosMQ;
         }
         &__boton{
             display: none;
         }
     }
+
     
         /* ENTREVISTAS */
     
@@ -640,180 +507,111 @@
         }
     }
     .estudioDefinicionEcg{
-        background: #212529;
-        height: auto;
-        grid-column: 2/6;
+        @include estudioDefinicionMQ1024;
         &__titulo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            font-size: 15px;
-            text-align: center;
-            align-items: center;
+            @include tituloEstudiosMQ;
         }
         &__img{
-            display: none;
+            @include imgEstudiosMQ1024;
         }
         &__parrafo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            padding-left: 0px;
-            text-align: center;
-            font-size: 15px;
+            @include parrafoEstudiosMQ;
         }
         &__boton{
             display: none;
         }
     }
     .estudioDefinicionHolter{
-        background: #212529;
-        height: auto;
-        grid-column: 2/6;
+        @include estudioDefinicionMQ1024;
         &__titulo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            font-size: 15px;
-            text-align: center;
-            align-items: center;
+            @include tituloEstudiosMQ;
         }
         &__img{
-            display: none;
+            @include imgEstudiosMQ1024;
         }
         &__parrafo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            padding-left: 0px;
-            text-align: center;
-            font-size: 15px;
+            @include parrafoEstudiosMQ;
         }
         &__boton{
             display: none;
         }
     }
     .estudioDefinicionMapa{
-        background: #212529;
-        height: auto;
-        grid-column: 2/6;
+        @include estudioDefinicionMQ1024;
         &__titulo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            font-size: 15px;
-            text-align: center;
-            align-items: center;
+            @include tituloEstudiosMQ;
         }
         &__img{
-            display: none;
+            @include imgEstudiosMQ1024;
         }
         &__parrafo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            padding-left: 0px;
-            text-align: center;
-            font-size: 15px;
+            @include parrafoEstudiosMQ;
         }
         &__boton{
             display: none;
         }
     }    
     .estudioDefinicionErgo{
-        background: #212529;
-        height: auto;
-        grid-column: 2/6;
+        @include estudioDefinicionMQ1024;
         &__titulo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            font-size: 15px;
-            text-align: center;
-            align-items: center;
+            @include tituloEstudiosMQ;
         }
         &__img{
-            display: none;
+            @include imgEstudiosMQ1024;
         }
         &__parrafo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            padding-left: 0px;
-            text-align: center;
-            font-size: 15px;
+            @include parrafoEstudiosMQ;
         }
         &__boton{
             display: none;
         }
     }
     .estudioDefinicionEcocardio{
-        background: #212529;
-        height: auto;
-        grid-column: 2/6;
+        @include estudioDefinicionMQ1024;
         &__titulo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            font-size: 15px;
-            text-align: center;
-            align-items: center;
+            @include tituloEstudiosMQ;
         }
         &__img{
-            display: none;
+            @include imgEstudiosMQ1024;
         }
         &__parrafo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            padding-left: 0px;
-            text-align: center;
-            font-size: 15px;
+            @include parrafoEstudiosMQ;
         }
         &__boton{
             display: none;
         }
     }
     .estudioDefinicionEcoVasos{
-        background: #212529;
-        height: auto;
-        grid-column: 2/6;
+        @include estudioDefinicionMQ1024;
         &__titulo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            font-size: 15px;
-            text-align: center;
-            align-items: center;
+            @include tituloEstudiosMQ;
         }
         &__img{
-            display: none;
+            @include imgEstudiosMQ1024;
         }
         &__parrafo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            padding-left: 0px;
-            text-align: center;
-            font-size: 15px;
+            @include parrafoEstudiosMQ;
         }
         &__boton{
             display: none;
         }
     }
     .estudioDefinicionEdadArt{
-        background: #212529;
-        height: auto;
-        grid-column: 2/6;
+        @include estudioDefinicionMQ1024;
         &__titulo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            font-size: 15px;
-            text-align: center;
-            align-items: center;
+            @include tituloEstudiosMQ;
         }
         &__img{
-            display: none;
+            @include imgEstudiosMQ1024;
         }
         &__parrafo{
-            color: whitesmoke;
-            grid-column: 1/8;
-            padding-left: 0px;
-            text-align: center;
-            font-size: 15px;
+            @include parrafoEstudiosMQ;
         }
         &__boton{
             display: none;
         }
     }
+
     
         /* ENTREVISTAS */
     

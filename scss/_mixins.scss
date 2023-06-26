@@ -93,3 +93,41 @@
     background-color: $colorbg;
     color:$colorLetra;
 }
+@mixin estudioDefinicionMQ{
+    grid-template-rows: 30px 1fr;
+    @include bg-borde;
+    height: auto;
+    grid-column: 2/6;
+}
+@mixin tituloEstudiosMQ{
+    color: $colorLetraOscura;
+    grid-column: 1/8;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+@mixin imgEstudiosMQ{
+    grid-row: 2/3;
+    grid-column: 2/7;
+    width: 50%;
+}
+@mixin parrafoEstudiosMQ{
+    color: $colorLetraOscura;
+    grid-column: 1/8;
+    grid-row: 3/5;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 15px;
+}
+@mixin estudioDefinicionMQ1024{
+    grid-template-rows: 20px 1fr 20px;
+    @include bg-borde;
+    height: auto;
+    grid-column: 2/6;
+}
+@mixin imgEstudiosMQ1024{
+    grid-row: 2/3;
+    grid-column: 2/7;
+    width: 40%;
+}
